@@ -99,7 +99,7 @@ export const Navbar = () => {
             </ul>
             <div className="pt-40 ">
               <p className="uppercase tracking-widest text-[#5651e5]">
-                Let's Connect
+                Let&apos;s Connect
               </p>
               <div className="flex items-center justify-between my-4 w-full sm:w-[80%]">
                 <div className="p-3 duration-300 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:scale-105">
