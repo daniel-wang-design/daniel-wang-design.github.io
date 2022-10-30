@@ -75,7 +75,7 @@ export const Navbar = () => {
             </div>
             <div className="my-4 border-b border-gray-300">
               <p className="w-[85%] md:w-[90%] py-4">
-                Let's build something legendary together.
+                Let&apos;s build something legendary together.
               </p>
             </div>
           </div>
