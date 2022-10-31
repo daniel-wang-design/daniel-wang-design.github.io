@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 export const About = () => {
   return (
@@ -16,10 +17,12 @@ export const About = () => {
           </p>
         </div>
         <div className="flex items-center justify-center w-full h-auto p-4 m-auto duration-300 ease-in shadow-xl shadow-gray-400 rounded-xl hover:scale-105">
-          <img
-            src="https://media.istockphoto.com/photos/purple-space-stars-picture-id157639696?k=20&m=157639696&s=612x612&w=0&h=SdmnpR_xWbXDcd36SggDN0hPX18CqgUjgZ1WQsAK_18="
-            alt="/"
-          />
+        <Image
+          src="/../public/assets/about.jpg"
+          alt="/"
+          width="1000"
+          height="100"
+        />
         </div>
       </div>
     </div>
