@@ -16,7 +16,7 @@ export const Navbar = () => {
     <div className="fixed w-full h-20 shadow-xl z-[100]">
       <div className="flex items-center justify-between w-full h-full px-2 2xl:px-16">
         <Image
-          src="/../public/assets/navLogo.png"
+          src="https://github.com/daniel-wang-design/daniel-wang-design.github.io/blob/3967e6142a34fe6d1c5a27271dbf0823d311f445/public/assets/navLogo.png"
           alt="/"
           width="125"
           height="50"
