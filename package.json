@@ -2,18 +2,23 @@
   "name": "daniel-wang-design.github.io",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://daniel-wang-design.github.io",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
+    "gh-pages": "^4.0.0",
     "next": "13.0.0",
     "next-images": "^1.8.4",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "react-icons": "^4.6.0"
+    "react-icons": "^4.6.0",
+    "save-dev": "^0.0.1-security"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.13",
