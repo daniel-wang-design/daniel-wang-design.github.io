@@ -18,7 +18,7 @@ export const Navbar = () => {
         <Image
           src="/../public/assets/navLogo.png"
           alt="/"
-          width="125"
+          width="50"
           height="50"
         />
         <div>
