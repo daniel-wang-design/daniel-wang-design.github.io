@@ -17,8 +17,8 @@ export const About = () => {
             vestibulum sit amet enim sed fermentum. Praesent at consequat sapien
           </p>
         </div>
-        <div className="flex items-center justify-center w-full h-auto p-4 m-auto duration-300 ease-in shadow-xl shadow-gray-400 rounded-xl hover:scale-105">
-        <Image
+        <div className="flex items-center justify-center w-full h-auto m-auto duration-300 ease-in shadow-xl rounded-xl shadow-gray-400 hover:scale-105">
+        <Image className="rounded-xl"
           src={aboutImage}
           alt="/"
           width="1000"
