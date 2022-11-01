@@ -98,7 +98,7 @@ export const Navbar = () => {
                 <li className="py-4 text-sm">Contact</li>
               </Link>
             </ul>
-            <div className="pt-40 ">
+            <div className="pt-[80%]">
               <p className="uppercase tracking-widest text-[#5651e5]">
                 Let&apos;s Connect
               </p>
