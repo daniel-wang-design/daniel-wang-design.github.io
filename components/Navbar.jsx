@@ -62,7 +62,7 @@ export const Navbar = () => {
           <div>
             <div className="flex items-center justify-between w-full">
               <Image
-                src="/../public/assets/navLogo.png"
+                src={logo}
                 width="87"
                 height="35"
                 alt="/"
@@ -98,7 +98,7 @@ export const Navbar = () => {
                 <li className="py-4 text-sm">Contact</li>
               </Link>
             </ul>
-            <div className="pt-[50%]">
+            <div className="pt-[20%]">
               <p className="uppercase tracking-widest text-[#5651e5]">
                 Let&apos;s Connect
               </p>
