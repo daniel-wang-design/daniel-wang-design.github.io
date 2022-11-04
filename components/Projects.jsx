@@ -9,7 +9,7 @@ import twitchImg from "../public/assets/projects/twitch.jpg";
 
 export const Projects = () => {
   return (
-    <div className="w-full">
+    <div id="projects" className="w-full">
       <div className="max-w-[1240px] mx-auto px-2 py-16">
         <p className="text-xl tracking-widest uppercase text-[$5651e5]">
           Projects
@@ -19,7 +19,7 @@ export const Projects = () => {
           <ProjectItem
             title="Property Finder"
             backgroundImg={propertyImg}
-            projectURL="/property"
+            projectURL="/Project1"
           />
           <ProjectItem
             title="Crypto App"

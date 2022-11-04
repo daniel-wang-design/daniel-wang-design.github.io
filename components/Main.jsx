@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 import { AiOutlineMail } from "react-icons/ai";
 import { BsFillPersonLinesFill } from "react-icons/bs";
@@ -5,7 +6,7 @@ import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 
 export const Main = () => {
   return (
-    <div className="w-full h-screen text-center">
+    <div id="home" className="w-full h-screen text-center">
       <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
         <div>
           <p className="text-sm tracking-widest text-gray-600 uppercase ">
@@ -23,7 +24,9 @@ export const Main = () => {
           </p>
           <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
             <div className="bg-[#f6fbff] p-6 duration-300 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:scale-110">
-              <FaLinkedinIn />
+              <Link href="https://www.linkedin.com/in/danielwang04/" target={"_blank"}>
+                <FaLinkedinIn />
+              </Link>
             </div>
             <div className="bg-[#f6fbff] p-6 duration-300 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:scale-110">
               <FaGithub />

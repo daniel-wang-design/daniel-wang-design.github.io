@@ -7,12 +7,11 @@ import image5 from "../public/assets/skills/html.png";
 import image6 from "../public/assets/skills/javascript.png";
 import image7 from "../public/assets/skills/mongo.png";
 import image8 from "../public/assets/skills/react.png";
-import Image from "next/image";
 import SkillTile from "./SkillTile";
 
 export function Skills() {
   return (
-    <div className="w-full p-2 lg:h-screen">
+    <div id="skills" className="w-full p-2 lg:h-screen">
       <div className="max-w-[1240px] mx-auto flex flex-col justify-center h-full">
         <p className="text-xl tracking-widest uppercase text-[#5651e5]">
           Skills
