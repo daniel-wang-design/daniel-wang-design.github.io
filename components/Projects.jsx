@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import propertyimg from "../public/assets/projects/property.jpg";
+import propertyImg from "../public/assets/projects/property.jpg";
 import ProjectItem from "./ProjectItem";
 import cryptoImg from "../public/assets/projects/crypto.jpg";
 import netflixImg from "../public/assets/projects/netflix.jpg";
@@ -18,7 +18,7 @@ export const Projects = () => {
         <div className="grid gap-8 md:grid-cols-2">
           <ProjectItem
             title="Property Finder"
-            backgroundImg={propertyimg}
+            backgroundImg={propertyImg}
             projectURL="/property"
           />
           <ProjectItem

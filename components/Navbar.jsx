@@ -28,16 +28,16 @@ export const Navbar = () => {
               <li className="ml-10 text-sm uppercase hover:border-b">Home</li>
             </Link>
             <Link href="/">
-              <li className="ml-10 text-sm uppercase hover:border-b"> bout</li>
-            </Link>{" "}
+              <li className="ml-10 text-sm uppercase hover:border-b">About</li>
+            </Link>
             <Link href="/">
               <li className="ml-10 text-sm uppercase hover:border-b">Skills</li>
-            </Link>{" "}
+            </Link>
             <Link href="/">
               <li className="ml-10 text-sm uppercase hover:border-b">
                 Projects
               </li>
-            </Link>{" "}
+            </Link>
             <Link href="/">
               <li className="ml-10 text-sm uppercase hover:border-b">
                 Contact

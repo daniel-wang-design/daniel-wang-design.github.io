@@ -22,16 +22,16 @@ export const Main = () => {
             applications.
           </p>
           <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
-            <div className="p-6 duration-300 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:scale-110">
+            <div className="bg-[#f6fbff] p-6 duration-300 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:scale-110">
               <FaLinkedinIn />
             </div>
-            <div className="p-6 duration-300 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:scale-110">
+            <div className="bg-[#f6fbff] p-6 duration-300 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:scale-110">
               <FaGithub />
             </div>
-            <div className="p-6 duration-300 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:scale-110">
+            <div className="bg-[#f6fbff] p-6 duration-300 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:scale-110">
               <AiOutlineMail />
             </div>
-            <div className="p-6 duration-300 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:scale-110">
+            <div className="bg-[#f6fbff] p-6 duration-300 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:scale-110">
               <BsFillPersonLinesFill />
             </div>
           </div>
