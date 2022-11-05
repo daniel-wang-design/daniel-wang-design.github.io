@@ -9,33 +9,32 @@ export const Main = () => {
     <div id="home" className="w-full h-screen text-center">
       <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
         <div>
-          <p className="text-sm tracking-widest text-gray-600 uppercase ">
-            Let&apos;s building something together.
-          </p>
-          <h1 className="py-4 text-gray-700">
+          <h1 className="py-4 text-[#ffffff]">
             Hey, I&apos;m <span className="text-[#5651e5]">Daniel</span>
           </h1>
-          <h1 className="py-4 text-gray-700 ">
-            Computer Science <br></br> University of Waterloo
-          </h1>
-          <p className="py-4 text-gray-600 max-w-[70%] m-auto">
+          <h2 className="py-4 text-[#ffffff]">Computer Science</h2>
+          <p className="py-4 text-[#ffffff] max-w-[70%] m-auto">
             I&apos;m a rising programmer specializing in productivity-related
             applications.
           </p>
           <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
-            <div className="bg-[#f6fbff] p-6 duration-300 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:scale-110">
-              <Link href="https://www.linkedin.com/in/danielwang04/" target={"_blank"}>
+            <div className="bg-[#5651e5] p-6 duration-300 ease-in rounded-full shadow-lg cursor-pointer  hover:scale-110">
+              <Link
+                className="text-[#ffffff]"
+                href="https://www.linkedin.com/in/danielwang04/"
+                target={"_blank"}
+              >
                 <FaLinkedinIn />
               </Link>
             </div>
-            <div className="bg-[#f6fbff] p-6 duration-300 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:scale-110">
-              <FaGithub />
+            <div className="bg-[#5651e5] p-6 duration-300 ease-in rounded-full shadow-lg cursor-pointer hover:scale-110">
+              <FaGithub className="text-[#ffffff]" />
             </div>
-            <div className="bg-[#f6fbff] p-6 duration-300 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:scale-110">
-              <AiOutlineMail />
+            <div className="bg-[#5651e5] p-6 duration-300 ease-in rounded-full shadow-lg cursor-pointer hover:scale-110">
+              <AiOutlineMail className="text-[#ffffff]" />
             </div>
-            <div className="bg-[#f6fbff] p-6 duration-300 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:scale-110">
-              <BsFillPersonLinesFill />
+            <div className="bg-[#5651e5] p-6 duration-300 ease-in rounded-full shadow-lg cursor-pointer hover:scale-110">
+              <BsFillPersonLinesFill className="text-[#ffffff]" />
             </div>
           </div>
         </div>

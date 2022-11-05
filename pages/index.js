@@ -16,7 +16,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar />
-      <div className="bg-[#eff9ff]">
+      <div className="bg-[#000000]">
         <Main />
         <About />
         <Skills />
