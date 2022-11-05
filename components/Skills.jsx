@@ -11,8 +11,6 @@ import javaImg from "../public/assets/skills/java.png";
 import pythonImg from "../public/assets/skills/python.png";
 import boltImg from "../public/assets/skills/bolt.svg";
 import dartImg from "../public/assets/skills/dart.png";
-import 
-
 import SkillTile from "./SkillTile";
 
 export function Skills() {
