@@ -4,7 +4,9 @@ import Link from "next/link";
 import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from "react-icons/ai";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { BsFillPersonLinesFill, BsWindowSidebar } from "react-icons/bs";
-import logo from "../public/assets/navLogo.png";
+import logoWhite from "../public/assets/logoWhite.png";
+import logoBlack from "../public/assets/logoBlack.png"
+import { SlMenu } from "react-icons/sl";
 
 export const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -33,7 +35,7 @@ export const Navbar = () => {
       }
     >
       <div className="flex items-center justify-between w-full h-full px-2 2xl:px-16">
-        <Image className="" src={logo} alt="/" width="50" height="50" />
+        <Image className="" src={logoWhite} alt="/" width="50" height="50" />
         <div>
           <ul className="hidden md:flex">
             <Link href="/">
@@ -52,30 +54,32 @@ export const Navbar = () => {
             </Link>
           </ul>
           <div onClick={handleNav} className="cursor-pointer md:hidden">
-            <AiOutlineMenu className="text-[#ffffff]" size={25} />
+            <SlMenu className="text-[#ffffff]" size={25} />
           </div>
         </div>
       </div>
       <div
         className={
-          nav ? "md:hidden fixed top-0 left-0 w-full h-screen bg-black/70" : ""
+          nav
+            ? "md:hidden fixed top-0 left-0 w-full h-screen bg-[#000000]/60"
+            : ""
         }
       >
         <div
           className={
             nav
-              ? "fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#000000] p-10 ease-in duration-500"
+              ? "fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#222222] p-10 ease-in duration-500"
               : "fixed left-[-100%] p-10 ease-in duration-500"
           }
         >
           <div>
             <div className="flex items-center justify-between w-full">
-              <Image src={logo} width="87" height="35" alt="/" />
+              <Image src={logoWhite} width="87" height="35" alt="/" />
               <div
                 onClick={handleNav}
                 className="p-3 rounded-full shadow-lg cursor-pointer "
               >
-                <AiOutlineClose size={25}  className="text-[#ffffff]"/>
+                <AiOutlineClose size={25} className="text-[#ffffff]" />
               </div>
             </div>
             <div className="my-4"></div>
@@ -83,22 +87,34 @@ export const Navbar = () => {
           <div className="flex flex-col py-4">
             <ul className="uppercase">
               <Link href="/">
-                <li onClick={() => setNav(false)} className="py-4 text-sm text-[#ffffff]">
+                <li
+                  onClick={() => setNav(false)}
+                  className="py-4 text-sm text-[#ffffff]"
+                >
                   Home
                 </li>
               </Link>
               <Link href="#about" scroll={false}>
-                <li onClick={() => setNav(false)} className="py-4 text-sm text-[#ffffff]">
+                <li
+                  onClick={() => setNav(false)}
+                  className="py-4 text-sm text-[#ffffff]"
+                >
                   About
                 </li>
               </Link>
               <Link href="#skills" scroll={false}>
-                <li onClick={() => setNav(false)} className="py-4 text-sm text-[#ffffff]">
+                <li
+                  onClick={() => setNav(false)}
+                  className="py-4 text-sm text-[#ffffff]"
+                >
                   Skills
                 </li>
               </Link>
               <Link href="#projects" scroll={false}>
-                <li onClick={() => setNav(false)} className="py-4 text-sm text-[#ffffff]">
+                <li
+                  onClick={() => setNav(false)}
+                  className="py-4 text-sm text-[#ffffff]"
+                >
                   Projects
                 </li>
               </Link>
