@@ -12,9 +12,7 @@ export const Main = () => {
         <div>
           <h1 className="py-4 text-[#ffffff]">
             Hey, I&apos;m&nbsp;
-            <span className={`text-[${textColor}] tracking-wide`}>
-              Daniel
-            </span>
+            <span className={`text-[${textColor}] tracking-wide`}>Daniel</span>
           </h1>
           <h2 className="py-4 text-[#ffffff]">Computer Science</h2>
           <p className="py-4 text-[#ffffff] max-w-[70%] m-auto">
@@ -22,30 +20,24 @@ export const Main = () => {
             applications.
           </p>
           <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
-            <div
-              className={
-                `bg-[${textColor}] p-6 duration-300 ease-in rounded-xl cursor-pointer hover:scale-110`
-              }
+            <Link
+              className="text-[#000000]"
+              href="https://www.linkedin.com/in/danielwang04/"
+              target={"_blank"}
             >
-              <Link
-                className="text-[#000000]"
-                href="https://www.linkedin.com/in/danielwang04/"
-                target={"_blank"}
+              <div
+                className={`bg-[${textColor}] p-6 duration-300 ease-in rounded-xl cursor-pointer hover:scale-110`}
               >
                 <FaLinkedinIn />
-              </Link>
-            </div>
+              </div>
+            </Link>
             <div
-              className={
-                `bg-[${textColor}] p-6 duration-300 ease-in rounded-xl cursor-pointer hover:scale-110`
-              }
+              className={`bg-[${textColor}] p-6 duration-300 ease-in rounded-xl cursor-pointer hover:scale-110`}
             >
               <FaGithub className="text-[#000000]" />
             </div>
             <div
-              className={
-                `bg-[${textColor}] p-6 duration-300 ease-in rounded-xl cursor-pointer hover:scale-110`
-              }
+              className={`bg-[${textColor}] p-6 duration-300 ease-in rounded-xl cursor-pointer hover:scale-110`}
             >
               <AiOutlineMail className="text-[#000000]" />
             </div>
