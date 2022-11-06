@@ -4,7 +4,7 @@ import Link from "next/link";
 import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from "react-icons/ai";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { BsFillPersonLinesFill, BsWindowSidebar } from "react-icons/bs";
-import logoWhite from "../public/assets/logoWhite.svg";
+import logoWhite from "../public/assets/logoWhite.png";
 import logoBlack from "../public/assets/logoBlack.png"
 import { SlMenu } from "react-icons/sl";
 
@@ -30,8 +30,8 @@ export const Navbar = () => {
     <div
       className={
         shadow
-          ? "fixed w-full h-20 shadow-xl z-[100] bg-[#000000]"
-          : "fixed w-full h-20 z-[100] bg-[#000000]"
+          ? "fixed w-full h-20 shadow-xl z-[100] bg-[#111111]"
+          : "fixed w-full h-20 z-[100] bg-[#111111]"
       }
     >
       <div className="flex items-center justify-between w-full h-full px-2 2xl:px-16">
@@ -68,7 +68,7 @@ export const Navbar = () => {
         <div
           className={
             nav
-              ? "fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#222222] p-10 ease-in duration-500"
+              ? "fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#111111] p-10 ease-in duration-500"
               : "fixed left-[-100%] p-10 ease-in duration-500"
           }
         >
@@ -124,16 +124,16 @@ export const Navbar = () => {
                 Connect with Me!
               </p>
               <div className="flex items-center justify-between my-4 w-full sm:w-[80%]">
-                <div className="bg-[#5651e5] p-3 duration-300 ease-in rounded-full shadow-lg cursor-pointer hover:scale-105">
+                <div className="bg-[#bb86fc] p-3 duration-300 ease-in rounded-full shadow-lg cursor-pointer hover:scale-105">
                   <FaLinkedinIn className="text-[#ffffff]" />
                 </div>
-                <div className="bg-[#5651e5] p-3 duration-300 ease-in rounded-full shadow-lg cursor-pointer hover:scale-105">
+                <div className="bg-[#bb86fc] p-3 duration-300 ease-in rounded-full shadow-lg cursor-pointer hover:scale-105">
                   <FaGithub className="text-[#ffffff]" />
                 </div>
-                <div className="bg-[#5651e5] p-3 duration-300 ease-in rounded-full shadow-lg cursor-pointer hover:scale-105">
+                <div className="bg-[#bb86fc] p-3 duration-300 ease-in rounded-full shadow-lg cursor-pointer hover:scale-105">
                   <AiOutlineMail className="text-[#ffffff]" />
                 </div>
-                <div className="bg-[#5651e5] p-3 duration-300 ease-in rounded-full shadow-lg cursor-pointer hover:scale-105">
+                <div className="bg-[#bb86fc] p-3 duration-300 ease-in rounded-full shadow-lg cursor-pointer hover:scale-105">
                   <BsFillPersonLinesFill className="text-[#ffffff]" />
                 </div>
               </div>

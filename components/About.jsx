@@ -7,7 +7,7 @@ export const About = () => {
     <div id="about" className="flex items-center w-full p-2 py-16 md:h-screen">
       <div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8">
         <div className="col-span-2">
-          <h1 className="uppercase tracking-wide text-[#5651e5]">About Me</h1>
+          <h1 className="uppercase tracking-wide text-[#bb86fc]">About Me</h1>
           <p className="py-2 text-[#ffffff]">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
             euismod ex at nulla convallis, ut pellentesque justo pulvinar. Nam

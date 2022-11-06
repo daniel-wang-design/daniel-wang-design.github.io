@@ -7,7 +7,7 @@ import htmlImg from "../public/assets/skills/html.png";
 import jsImg from "../public/assets/skills/javascript.png";
 import mongoImg from "../public/assets/skills/mongo.png";
 import reactImg from "../public/assets/skills/react.png";
-import javaImg from "../public/assets/skills/java.png";
+import javaImg from "../public/assets/skills/java.svg";
 import pythonImg from "../public/assets/skills/python.png";
 import boltImg from "../public/assets/skills/bolt.svg";
 import dartImg from "../public/assets/skills/dart.png";
@@ -17,7 +17,7 @@ export function Skills() {
   return (
     <div id="skills" className="w-full p-2 lg:h-screen">
       <div className="max-w-[1240px] mx-auto flex flex-col justify-center h-full">
-        <h1 className="tracking-wide uppercase text-[#5651e5]">Skills</h1>
+        <h1 className="tracking-wide uppercase text-[#bb86fc]">Skills</h1>
         <h2 className="py-4 text-[#ffffff]">Programming Languages</h2>
         <div className="grid grid-cols-2 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
           <SkillTile image={dartImg} text="Dart" />

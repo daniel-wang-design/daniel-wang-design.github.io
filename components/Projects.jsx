@@ -11,9 +11,9 @@ export const Projects = () => {
   return (
     <div id="projects" className="w-full">
       <div className="max-w-[1240px] mx-auto px-2 py-16">
-        <p className="text-xl tracking-widest uppercase text-[$5651e5]">
+        <h1 className="tracking-wide uppercase text-[#bb86fc]">
           Projects
-        </p>
+        </h1>
         <h2 className="py-4">What I&apos;ve Built</h2>
         <div className="grid gap-8 md:grid-cols-2">
           <ProjectItem
