@@ -124,16 +124,16 @@ export const Navbar = () => {
                 Connect with Me!
               </p>
               <div className="flex items-center justify-between my-4 w-full sm:w-[80%]">
-                <div className="bg-[#bb86fc] p-3 duration-300 ease-in rounded-full shadow-lg cursor-pointer hover:scale-105">
+                <div className="bg-[#bb86fc] p-3 duration-300 ease-in rounded-xl shadow-lg cursor-pointer hover:scale-105">
                   <FaLinkedinIn className="text-[#ffffff]" />
                 </div>
-                <div className="bg-[#bb86fc] p-3 duration-300 ease-in rounded-full shadow-lg cursor-pointer hover:scale-105">
+                <div className="bg-[#bb86fc] p-3 duration-300 ease-in rounded-xl shadow-lg cursor-pointer hover:scale-105">
                   <FaGithub className="text-[#ffffff]" />
                 </div>
-                <div className="bg-[#bb86fc] p-3 duration-300 ease-in rounded-full shadow-lg cursor-pointer hover:scale-105">
+                <div className="bg-[#bb86fc] p-3 duration-300 ease-in rounded-xl shadow-lg cursor-pointer hover:scale-105">
                   <AiOutlineMail className="text-[#ffffff]" />
                 </div>
-                <div className="bg-[#bb86fc] p-3 duration-300 ease-in rounded-full shadow-lg cursor-pointer hover:scale-105">
+                <div className="bg-[#bb86fc] p-3 duration-300 ease-in rounded-xl shadow-lg cursor-pointer hover:scale-105">
                   <BsFillPersonLinesFill className="text-[#ffffff]" />
                 </div>
               </div>

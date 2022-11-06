@@ -11,8 +11,8 @@ export const Main = () => {
       <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
         <div>
           <h1 className="py-4 text-[#ffffff]">
-            Hey, I&apos;m{" "}
-            <span className={"text-[" + textColor + "] tracking-wide"}>
+            Hey, I&apos;m
+            <span className={`text-[${textColor}] tracking-wide`}>
               Daniel
             </span>
           </h1>
@@ -24,9 +24,7 @@ export const Main = () => {
           <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
             <div
               className={
-                "bg-[" +
-                textColor +
-                "] p-6 duration-300 ease-in rounded-full cursor-pointer hover:scale-110"
+                `bg-[${textColor}] p-6 duration-300 ease-in rounded-xl cursor-pointer hover:scale-110`
               }
             >
               <Link
@@ -39,18 +37,14 @@ export const Main = () => {
             </div>
             <div
               className={
-                "bg-[" +
-                textColor +
-                "] p-6 duration-300 ease-in rounded-full cursor-pointer hover:scale-110"
+                `bg-[${textColor}] p-6 duration-300 ease-in rounded-xl cursor-pointer hover:scale-110`
               }
             >
               <FaGithub className="text-[#000000]" />
             </div>
             <div
               className={
-                "bg-[" +
-                textColor +
-                "] p-6 duration-300 ease-in rounded-full cursor-pointer hover:scale-110"
+                `bg-[${textColor}] p-6 duration-300 ease-in rounded-xl cursor-pointer hover:scale-110`
               }
             >
               <AiOutlineMail className="text-[#000000]" />
@@ -59,7 +53,7 @@ export const Main = () => {
               className={
                 "bg-[" +
                 textColor +
-                "] p-6 duration-300 ease-in rounded-full cursor-pointer hover:scale-110"
+                "] p-6 duration-300 ease-in rounded-xl cursor-pointer hover:scale-110"
               }
             >
               <BsFillPersonLinesFill className="text-[#000000]" />
