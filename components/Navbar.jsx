@@ -4,7 +4,7 @@ import Link from "next/link";
 import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from "react-icons/ai";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { BsFillPersonLinesFill, BsWindowSidebar } from "react-icons/bs";
-import logoWhite from "../public/assets/logoWhite.png";
+import logoWhite from "../public/assets/logoWhite.svg";
 import logoBlack from "../public/assets/logoBlack.png"
 import { SlMenu } from "react-icons/sl";
 
