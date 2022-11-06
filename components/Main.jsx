@@ -11,7 +11,7 @@ export const Main = () => {
       <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
         <div>
           <h1 className="py-4 text-[#ffffff]">
-            Hey, I&apos;m 
+            Hey, I&apos;m&nbsp;
             <span className={`text-[${textColor}] tracking-wide`}>
               Daniel
             </span>
