@@ -31,25 +31,39 @@ export const Main = () => {
                 <FaLinkedinIn />
               </div>
             </Link>
-            <div
-              className={`bg-[${textColor}] p-6 duration-300 ease-in rounded-xl cursor-pointer hover:scale-110`}
+            <Link
+              className="text-[#000000]"
+              href="https://github.com/daniel-wang-design"
+              target={"_blank"}
             >
-              <FaGithub className="text-[#000000]" />
-            </div>
-            <div
-              className={`bg-[${textColor}] p-6 duration-300 ease-in rounded-xl cursor-pointer hover:scale-110`}
+              <div
+                className={`bg-[${textColor}] p-6 duration-300 ease-in rounded-xl cursor-pointer hover:scale-110`}
+              >
+                <FaGithub />
+              </div>
+            </Link>
+            <Link
+              className="text-[#000000]"
+              href="mailto:daniel.wang04@hotmail.com"
+              target={"_blank"}
             >
-              <AiOutlineMail className="text-[#000000]" />
-            </div>
-            <div
-              className={
-                "bg-[" +
-                textColor +
-                "] p-6 duration-300 ease-in rounded-xl cursor-pointer hover:scale-110"
-              }
+              <div
+                className={`bg-[${textColor}] p-6 duration-300 ease-in rounded-xl cursor-pointer hover:scale-110`}
+              >
+                <AiOutlineMail />
+              </div>
+            </Link>
+            <Link
+              className="text-[#000000]"
+              href="https://www.drive.google.com"
+              target={"_blank"}
             >
-              <BsFillPersonLinesFill className="text-[#000000]" />
-            </div>
+              <div
+                className={`bg-[${textColor}] p-6 duration-300 ease-in rounded-xl cursor-pointer hover:scale-110`}
+              >
+                <BsFillPersonLinesFill />
+              </div>
+            </Link>
           </div>
         </div>
       </div>
