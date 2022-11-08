@@ -5,12 +5,13 @@ import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from "react-icons/ai";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { BsFillPersonLinesFill, BsWindowSidebar } from "react-icons/bs";
 import logoWhite from "../public/assets/logoWhite.png";
-import logoBlack from "../public/assets/logoBlack.png"
+import logoBlack from "../public/assets/logoBlack.png";
 import { SlMenu } from "react-icons/sl";
 
 export const Navbar = () => {
   const [nav, setNav] = useState(false);
   const [shadow, setShadow] = useState(false);
+  const textColor = "#bb86fc";
 
   useEffect(() => {
     const handleShadow = () => {
@@ -36,39 +37,19 @@ export const Navbar = () => {
     >
       <div className="flex items-center justify-between w-full h-full px-2 2xl:px-16">
         <Image className="" src={logoWhite} alt="/" width="50" height="50" />
-        <div>
-          <ul className="hidden md:flex">
-            <Link href="/">
-              <li className="ml-10 text-sm uppercase hover:border-b">Home</li>
-            </Link>
-            <Link href="#about" scroll={false}>
-              <li className="ml-10 text-sm uppercase hover:border-b">About</li>
-            </Link>
-            <Link href="#skills" scroll={false}>
-              <li className="ml-10 text-sm uppercase hover:border-b">Skills</li>
-            </Link>
-            <Link href="#projects" scroll={false}>
-              <li className="ml-10 text-sm uppercase hover:border-b">
-                Projects
-              </li>
-            </Link>
-          </ul>
-          <div onClick={handleNav} className="cursor-pointer md:hidden">
-            <SlMenu className="text-[#ffffff]" size={25} />
-          </div>
+        <div onClick={handleNav} className="cursor-pointer">
+          <SlMenu className="text-[#ffffff]" size={25} />
         </div>
       </div>
       <div
         className={
-          nav
-            ? "md:hidden fixed top-0 left-0 w-full h-screen bg-[#000000]/60"
-            : ""
+          nav ? "fixed top-0 left-0 w-full h-screen bg-[#000000]/60" : ""
         }
       >
         <div
           className={
             nav
-              ? "fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#111111] p-10 ease-in duration-500"
+              ? "fixed left-0 top-0 lg:w-[30%] sm:w-[60%] md:w-[45%] h-screen bg-[#222222] p-10 ease-in duration-500"
               : "fixed left-[-100%] p-10 ease-in duration-500"
           }
         >
@@ -124,18 +105,50 @@ export const Navbar = () => {
                 Connect with Me!
               </p>
               <div className="flex items-center justify-between my-4 w-full sm:w-[80%]">
-                <div className="bg-[#bb86fc] p-3 duration-300 ease-in rounded-xl shadow-lg cursor-pointer hover:scale-105">
-                  <FaLinkedinIn className="text-[#ffffff]" />
-                </div>
-                <div className="bg-[#bb86fc] p-3 duration-300 ease-in rounded-xl shadow-lg cursor-pointer hover:scale-105">
-                  <FaGithub className="text-[#ffffff]" />
-                </div>
-                <div className="bg-[#bb86fc] p-3 duration-300 ease-in rounded-xl shadow-lg cursor-pointer hover:scale-105">
-                  <AiOutlineMail className="text-[#ffffff]" />
-                </div>
-                <div className="bg-[#bb86fc] p-3 duration-300 ease-in rounded-xl shadow-lg cursor-pointer hover:scale-105">
-                  <BsFillPersonLinesFill className="text-[#ffffff]" />
-                </div>
+                <Link
+                  className="text-[#000000]"
+                  href="https://www.linkedin.com/in/danielwang04/"
+                  target={"_blank"}
+                >
+                  <div
+                    className={`bg-[${textColor}] p-4 duration-300 ease-in rounded-xl cursor-pointer hover:scale-110`}
+                  >
+                    <FaLinkedinIn />
+                  </div>
+                </Link>
+                <Link
+                  className="text-[#000000]"
+                  href="https://github.com/daniel-wang-design"
+                  target={"_blank"}
+                >
+                  <div
+                    className={`bg-[${textColor}] p-4 duration-300 ease-in rounded-xl cursor-pointer hover:scale-110`}
+                  >
+                    <FaGithub />
+                  </div>
+                </Link>
+                <Link
+                  className="text-[#000000]"
+                  href="mailto:daniel.wang04@hotmail.com"
+                  target={"_blank"}
+                >
+                  <div
+                    className={`bg-[${textColor}] p-4 duration-300 ease-in rounded-xl cursor-pointer hover:scale-110`}
+                  >
+                    <AiOutlineMail />
+                  </div>
+                </Link>
+                <Link
+                  className="text-[#000000]"
+                  href="https://www.drive.google.com"
+                  target={"_blank"}
+                >
+                  <div
+                    className={`bg-[${textColor}] p-4 duration-300 ease-in rounded-xl cursor-pointer hover:scale-110`}
+                  >
+                    <BsFillPersonLinesFill />
+                  </div>
+                </Link>
               </div>
             </div>
           </div>

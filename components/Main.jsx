@@ -15,16 +15,19 @@ export const Main = () => {
             Hey, I&apos;m&nbsp;
             <span className={`text-[${textColor}] tracking-wide`}>Daniel</span>
           </h1>
-          <h2 className="py-4 tracking-wide text-[#ffffff]">
-            <TypeAnimation
-              sequence={["Computer Science", 2000, "University of Waterloo", 2000]}
-              wrapper="h2"
-              cursor={true}
-              repeat={Infinity}
-              speed={20}
-              deletionSpeed={20}
-            />
-          </h2>
+          <TypeAnimation
+            sequence={[
+              "Computer Science",
+              2000,
+              "University of Waterloo",
+              2000,
+            ]}
+            className="text-3xl sm:text-4xl py-4 tracking-wide text-[#ffffff]"
+            cursor={true}
+            repeat={Infinity}
+            speed={20}
+            deletionSpeed={20}
+          />
           <p className="py-4 text-[#ffffff] max-w-[70%] m-auto">
             I&apos;m a rising programmer specializing in productivity-related
             applications.
