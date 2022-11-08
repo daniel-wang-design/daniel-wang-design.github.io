@@ -111,7 +111,7 @@ export const Navbar = () => {
                   target={"_blank"}
                 >
                   <div
-                    className={`bg-[${textColor}] p-4 duration-300 ease-in rounded-xl cursor-pointer hover:scale-110`}
+                    className={`bg-[${textColor}] p-3 duration-300 ease-in rounded-xl cursor-pointer hover:scale-110`}
                   >
                     <FaLinkedinIn />
                   </div>
@@ -122,7 +122,7 @@ export const Navbar = () => {
                   target={"_blank"}
                 >
                   <div
-                    className={`bg-[${textColor}] p-4 duration-300 ease-in rounded-xl cursor-pointer hover:scale-110`}
+                    className={`bg-[${textColor}] p-3 duration-300 ease-in rounded-xl cursor-pointer hover:scale-110`}
                   >
                     <FaGithub />
                   </div>
@@ -133,7 +133,7 @@ export const Navbar = () => {
                   target={"_blank"}
                 >
                   <div
-                    className={`bg-[${textColor}] p-4 duration-300 ease-in rounded-xl cursor-pointer hover:scale-110`}
+                    className={`bg-[${textColor}] p-3 duration-300 ease-in rounded-xl cursor-pointer hover:scale-110`}
                   >
                     <AiOutlineMail />
                   </div>
@@ -144,7 +144,7 @@ export const Navbar = () => {
                   target={"_blank"}
                 >
                   <div
-                    className={`bg-[${textColor}] p-4 duration-300 ease-in rounded-xl cursor-pointer hover:scale-110`}
+                    className={`bg-[${textColor}] p-3 duration-300 ease-in rounded-xl cursor-pointer hover:scale-110`}
                   >
                     <BsFillPersonLinesFill />
                   </div>
