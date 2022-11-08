@@ -7,7 +7,7 @@ import Link from 'next/link';
 const Project1 = () => {
   return (
     <div className='w-full'>
-     
+      
     </div>
   );
 };

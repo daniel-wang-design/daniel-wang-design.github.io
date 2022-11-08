@@ -7,15 +7,15 @@ import cryptoImg from "../public/assets/projects/crypto.jpg";
 import netflixImg from "../public/assets/projects/netflix.jpg";
 import twitchImg from "../public/assets/projects/twitch.jpg";
 
+
 export const Projects = () => {
   return (
     <div id="projects" className="w-full">
       <div className="max-w-[1240px] mx-auto px-2 py-16">
-        <h1 className="tracking-wide uppercase text-[#bb86fc]">
+        <h1 className="pb-2 tracking-wide uppercase text-[#bb86fc]">
           Projects
         </h1>
-        <h2 className="py-4">What I&apos;ve Built</h2>
-        <div className="grid gap-8 md:grid-cols-2">
+        <div className="grid gap-8 pt-4 md:grid-cols-2">
           <ProjectItem
             title="Property Finder"
             backgroundImg={propertyImg}

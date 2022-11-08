@@ -74,7 +74,7 @@ export const Navbar = () => {
         >
           <div>
             <div className="flex items-center justify-between w-full">
-              <Image src={logoWhite} width="87" height="35" alt="/" />
+              <Image src={logoWhite} width="30" height="30" alt="/" />
               <div
                 onClick={handleNav}
                 className="p-3 rounded-full shadow-lg cursor-pointer "
