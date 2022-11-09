@@ -10,7 +10,7 @@ import twitchImg from "../public/assets/projects/twitch.jpg";
 
 export const Projects = () => {
   return (
-    <div id="projects" className="w-full">
+    <div id="projects" className="w-full pt-8">
       <div className="max-w-[1240px] mx-auto px-2 py-16">
         <h1 className="pb-2 tracking-wide uppercase text-[#bb86fc]">
           Projects
