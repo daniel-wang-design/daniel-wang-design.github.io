@@ -32,14 +32,14 @@ export const Main = () => {
             I&apos;m a rising programmer specializing in productivity-related
             applications.
           </p>
-          <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
+          <div className="flex items-center justify-between max-w-[300px] m-auto py-4">
             <Link
               className="text-[#000000]"
               href="https://www.linkedin.com/in/danielwang04/"
               target={"_blank"}
             >
               <div
-                className={`bg-[${textColor}] p-6 duration-300 ease-in rounded-xl cursor-pointer hover:scale-110`}
+                className={`bg-[${textColor}] p-4 duration-300 ease-in rounded-xl cursor-pointer hover:scale-110`}
               >
                 <FaLinkedinIn />
               </div>
@@ -50,7 +50,7 @@ export const Main = () => {
               target={"_blank"}
             >
               <div
-                className={`bg-[${textColor}] p-6 duration-300 ease-in rounded-xl cursor-pointer hover:scale-110`}
+                className={`bg-[${textColor}] p-4 duration-300 ease-in rounded-xl cursor-pointer hover:scale-110`}
               >
                 <FaGithub />
               </div>
@@ -61,7 +61,7 @@ export const Main = () => {
               target={"_blank"}
             >
               <div
-                className={`bg-[${textColor}] p-6 duration-300 ease-in rounded-xl cursor-pointer hover:scale-110`}
+                className={`bg-[${textColor}] p-4 duration-300 ease-in rounded-xl cursor-pointer hover:scale-110`}
               >
                 <AiOutlineMail />
               </div>
@@ -72,7 +72,7 @@ export const Main = () => {
               target={"_blank"}
             >
               <div
-                className={`bg-[${textColor}] p-6 duration-300 ease-in rounded-xl cursor-pointer hover:scale-110`}
+                className={`bg-[${textColor}] p-4 duration-300 ease-in rounded-xl cursor-pointer hover:scale-110`}
               >
                 <BsFillPersonLinesFill />
               </div>
