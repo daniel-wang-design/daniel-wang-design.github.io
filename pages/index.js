@@ -17,7 +17,7 @@ export default function Home() {
       </Head>
       <Navbar />
       <div className="bg-[#111111]">
-        <Main />
+        <Main  /> 
         <Skills />
         <Projects />
         <About />
