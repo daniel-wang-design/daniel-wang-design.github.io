@@ -18,9 +18,9 @@ export default function Home() {
       <Navbar />
       <div className="bg-[#111111]">
         <Main />
-        <About />
         <Skills />
         <Projects />
+        <About />
         <Footer />
       </div>
     </div>
