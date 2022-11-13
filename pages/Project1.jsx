@@ -8,7 +8,10 @@ import Image from "next/image";
 const Project1 = () => {
   return (
     <div className="w-full">
-      
+      <p>background image</p>
+      <p>description</p>
+      <p>technologies/prgramming languages</p>
+      <p>screenshots/usage</p>
     </div>
   );
 };
