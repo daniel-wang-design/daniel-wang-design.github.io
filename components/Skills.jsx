@@ -12,6 +12,9 @@ import pythonImg from "../public/assets/skills/python.png";
 import boltImg from "../public/assets/skills/bolt.svg";
 import dartImg from "../public/assets/skills/dart.png";
 import SkillTile from "./SkillTile";
+import flutterImg from "../public/assets/skills/flutter.png";
+import tailwindImg from "../public/assets/skills/tailwind.png";
+import nextjsImg from "../public/assets/skills/nextjs.png";
 
 export function Skills() {
   return (
@@ -31,9 +34,11 @@ export function Skills() {
         <div className="grid grid-cols-2 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
           <SkillTile image={awsImg} text="AWS S3" />
           <SkillTile image={firebaseImg} text="Firebase" />
-          <SkillTile image={boltImg} text="Bolt SDK" />
-          <SkillTile image={mongoImg} text="MongoDB" />
           <SkillTile image={reactImg} text="React" />
+          <SkillTile image={flutterImg} text="Flutter" />
+          <SkillTile image={nextjsImg} text="NextJS" />
+          <SkillTile image={tailwindImg} text="Tailwind" />
+          <SkillTile image={boltImg} text="Bolt SDK" />
           <SkillTile image={githubImg} text="GitHub" />
         </div>
       </div>
