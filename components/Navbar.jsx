@@ -7,6 +7,7 @@ import { BsFillPersonLinesFill, BsWindowSidebar } from "react-icons/bs";
 import logoWhite from "../public/assets/logoWhite.png";
 import logoBlack from "../public/assets/logoBlack.png";
 import { SlMenu } from "react-icons/sl";
+import Project2 from "../pages/Project2";
 
 export const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -66,40 +67,9 @@ export const Navbar = () => {
             <div className="my-4"></div>
           </div>
           <div className="flex flex-col py-4">
-            <ul className="uppercase">
-              <Link href="/">
-                <li
-                  onClick={() => setNav(false)}
-                  className="py-4 text-sm text-[#ffffff]"
-                >
-                  Home
-                </li>
-              </Link>
-              <Link href="#about" scroll={false}>
-                <li
-                  onClick={() => setNav(false)}
-                  className="py-4 text-sm text-[#ffffff]"
-                >
-                  About
-                </li>
-              </Link>
-              <Link href="#skills" scroll={false}>
-                <li
-                  onClick={() => setNav(false)}
-                  className="py-4 text-sm text-[#ffffff]"
-                >
-                  Skills
-                </li>
-              </Link>
-              <Link href="#projects" scroll={false}>
-                <li
-                  onClick={() => setNav(false)}
-                  className="py-4 text-sm text-[#ffffff]"
-                >
-                  Projects
-                </li>
-              </Link>
-            </ul>
+            <div onClick={handleNav}>
+              <Project2 onClick={() => setNav(false)} />
+            </div>
             <div className="pt-[20%]">
               <p className="uppercase tracking-widest text-[#ffffff]">
                 Connect with Me!
