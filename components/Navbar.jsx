@@ -49,8 +49,8 @@ export const Navbar = () => {
         <div
           className={
             nav
-              ? "fixed left-0 top-0 lg:w-[30%] sm:w-[60%] md:w-[45%] h-screen bg-[#222222] p-10 ease-in duration-500"
-              : "fixed left-[-100%] p-10 ease-in duration-500"
+              ? "fixed right-0 top-0 lg:w-[30%] sm:w-[60%] md:w-[45%] h-screen bg-[#222222] p-10 ease-in duration-200"
+              : "fixed right-[-100%] p-10 ease-in duration-200"
           }
         >
           <div>

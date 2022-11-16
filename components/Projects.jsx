@@ -24,7 +24,7 @@ export const Projects = () => {
           <ProjectItem
             title="Crypto App"
             backgroundImg={cryptoImg}
-            projectURL="/property"
+            projectURL="/Project2"
           />
           <ProjectItem
             title="Netflix Plugin"
