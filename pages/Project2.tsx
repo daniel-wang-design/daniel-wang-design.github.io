@@ -16,7 +16,7 @@ export default function SelectedListItem() {
     event: React.MouseEvent<HTMLDivElement, MouseEvent>,
     index: number
   ) => {
-    setSelectedIndex(index);
+    setSelectedIndex(0);
   };
 
   return (
