@@ -4,6 +4,8 @@ import netflixImg from "../public/assets/projects/netflix.jpg";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
 import aboutImage from "../public/assets/about.jpg";
+import "semantic-ui-css/semantic.min.css";
+import { List } from "semantic-ui-react";
 
 const Improvall = () => {
   return (
@@ -19,14 +21,23 @@ const Improvall = () => {
         </div>
         <Image className="rounded-xl object-fill" src={aboutImage} alt="/" />
       </div>
-      <div className="max-w-[1240px] grid grid-cols-2 md:grid md:grid-cols-2 gap-6 w-full h-auto pt-2 m-auto">
+      <div className="max-w-[1240px] grid gap-6 w-full h-auto pt-2 m-auto">
         <div>
-          <h3 className="uppercase tracking-wide text-[#bb86fc]">
-            Programming Languages
+          <h3 className="uppercase tracking-wide text-[#ffffff]">
+            Programming Languages and Technologies
           </h3>
-          <p className="text-white pt-2">Dart</p>
+          <div className="gap-6 flex grid-cols-5 md:grid-cols-5 sm:3 items-center">
+            <div className="bg-[#bb86fc] p-3 hover:scale-105 rounded-xl text-center">
+              <h2 className="text-black">Dart</h2>
+            </div>
+            <div className="bg-[#bb86fc] p-3 hover:scale-105 rounded-xl text-center">
+              <h2 className="text-black">Flutter</h2>
+            </div>
+            <div className="bg-[#bb86fc] p-3 hover:scale-105 rounded-xl text-center">
+              <h2 className="text-black">Firebase</h2>
+            </div>
+          </div>
         </div>
-        <div></div>
       </div>
     </div>
   );
