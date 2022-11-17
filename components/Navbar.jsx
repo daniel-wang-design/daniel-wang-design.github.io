@@ -7,35 +7,18 @@ import { BsFillPersonLinesFill, BsWindowSidebar } from "react-icons/bs";
 import logoWhite from "../public/assets/logoWhite.png";
 import logoBlack from "../public/assets/logoBlack.png";
 import { SlMenu } from "react-icons/sl";
-import Project2 from "../pages/Project2";
+import NavbarOptions from "./NavbarOptions";
 
 export const Navbar = () => {
   const [nav, setNav] = useState(false);
-  const [shadow, setShadow] = useState(false);
   const textColor = "#bb86fc";
 
-  useEffect(() => {
-    const handleShadow = () => {
-      if (window.scrollY >= 90) {
-        setShadow(true);
-      } else {
-        setShadow(false);
-      }
-    };
-    window.addEventListener("scroll", handleShadow);
-  });
   const handleNav = () => {
     setNav(!nav);
   };
 
   return (
-    <div
-      className={
-        shadow
-          ? "fixed w-full h-20 shadow-xl z-[100] bg-[#111111]"
-          : "fixed w-full h-20 z-[100] bg-[#111111]"
-      }
-    >
+    <div className=" w-full h-20 bg-[#111111]">
       <div className="flex items-center justify-between w-full h-full px-2 2xl:px-16">
         <Image className="" src={logoWhite} alt="/" width="50" height="50" />
         <div onClick={handleNav} className="cursor-pointer">
@@ -68,7 +51,7 @@ export const Navbar = () => {
           </div>
           <div className="flex flex-col py-4">
             <div onClick={handleNav}>
-              <Project2 onClick={() => setNav(false)} />
+              <NavbarOptions onClick={() => setNav(false)} />
             </div>
             <div className="pt-[20%]">
               <p className="uppercase tracking-widest text-[#ffffff]">

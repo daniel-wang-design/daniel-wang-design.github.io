@@ -5,7 +5,7 @@ import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
 import aboutImage from "../public/assets/about.jpg";
 
-const Project1 = () => {
+const Improvall = () => {
   return (
     <div className="h-full w-full p-2 py-16 bg-[#111111]">
       <div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8">
@@ -32,4 +32,4 @@ const Project1 = () => {
   );
 };
 
-export default Project1;
+export default Improvall;
