@@ -25,8 +25,7 @@ const Improvall = () => {
           className="text-[10vh] py-4 tracking-widest text-[#bb86fc]"
           cursor={true}
           repeat={0}
-          speed={20}
-          deletionSpeed={20}
+          speed={10}
         />
       </div>
       <div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8">
