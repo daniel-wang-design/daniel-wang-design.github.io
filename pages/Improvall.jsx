@@ -14,12 +14,12 @@ const Improvall = () => {
     <div className="h-full w-full bg-[#111111]">
       <div className="brightness-[0.2]">
         <Image
-          className=" object-fill h-[100%] w-[100vw]"
+          className="object-fill h-[100%] w-[100vw]"
           src={aboutSvg}
           alt="/"
         />
       </div>
-      <div className="absolute top-[30vh] left-[10vw]">
+      <div className="absolute top-[30%] left-[10%]">
         <TypeAnimation
           sequence={["IMPROVALL", 2000]}
           className="text-[10vw] py-4 tracking-widest text-[#bb86fc]"
