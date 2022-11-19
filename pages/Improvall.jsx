@@ -7,16 +7,33 @@ import aboutImage from "../public/assets/about.jpg";
 import "semantic-ui-css/semantic.min.css";
 import { List } from "semantic-ui-react";
 import aboutSvg from "../public/assets/about.svg";
+import { TypeAnimation } from "react-type-animation";
 
 const Improvall = () => {
   return (
     <div className="h-full w-full bg-[#111111]">
-      <div className="brightness-[0.3]">
-          <Image className=" object-fill h-[100%] w-[100vw]" src={aboutSvg} alt="/" />
+      <div className="brightness-[0.2]">
+        <Image
+          className=" object-fill h-[100%] w-[100vw]"
+          src={aboutSvg}
+          alt="/"
+        />
+      </div>
+      <div className="absolute top-[30vh] left-[10vw]">
+        <TypeAnimation
+          sequence={["IMPROVALL", 2000]}
+          className="text-[10vh] py-4 tracking-widest text-[#bb86fc]"
+          cursor={true}
+          repeat={0}
+          speed={20}
+          deletionSpeed={20}
+        />
       </div>
       <div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8">
         <div className="col-span-2">
-          <h1 className="uppercase tracking-wide text-[#bb86fc]">Improvall</h1>
+          <h1 className="uppercase tracking-wide pt-16 text-[#bb86fc]">
+            Improvall
+          </h1>
           <p className="py-2 text-[#ffffff]">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
             euismod ex at nulla convallis, ut pellentesque justo pulvinar. Nam
