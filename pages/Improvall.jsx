@@ -19,10 +19,10 @@ const Improvall = () => {
           alt="/"
         />
       </div>
-      <div className="absolute lg:top-[30%] lg:left-[10%] sm:top-[10%] sm:left-[10%] md:top-[30%] md:left-[10%]">
+      <div className="absolute top-[10vh] left-[10vw] lg:top-[30%] lg:left-[10%] sm:top-[10vh] sm:left-[10%] md:top-[30vh] md:left-[10%]">
         <TypeAnimation
           sequence={["IMPROVALL", 2000]}
-          className="md:text-[10vw] lg:text-[10vw] sm:text-[10vw] py-4 tracking-widest text-[#bb86fc]"
+          className="text-[10vw] py-4 tracking-widest text-[#bb86fc]"
           cursor={true}
           repeat={0}
           speed={10}
