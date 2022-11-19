@@ -22,7 +22,7 @@ const Improvall = () => {
       <div className="absolute top-[30vh] left-[10vw]">
         <TypeAnimation
           sequence={["IMPROVALL", 2000]}
-          className="text-[10vh] py-4 tracking-widest text-[#bb86fc]"
+          className="text-[10vw] py-4 tracking-widest text-[#bb86fc]"
           cursor={true}
           repeat={0}
           speed={10}
