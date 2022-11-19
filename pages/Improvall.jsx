@@ -6,10 +6,14 @@ import Link from "next/link";
 import aboutImage from "../public/assets/about.jpg";
 import "semantic-ui-css/semantic.min.css";
 import { List } from "semantic-ui-react";
+import aboutSvg from "../public/assets/about.svg";
 
 const Improvall = () => {
   return (
-    <div className="h-full w-full p-2 py-16 bg-[#111111]">
+    <div className="h-full w-full bg-[#111111]">
+      <div className="brightness-[0.3]">
+          <Image className=" object-fill h-[100%] w-[100vw]" src={aboutSvg} alt="/" />
+      </div>
       <div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8">
         <div className="col-span-2">
           <h1 className="uppercase tracking-wide text-[#bb86fc]">Improvall</h1>

@@ -11,12 +11,15 @@ import "aos/dist/aos.css";
 
 export const Projects = () => {
   useEffect(() => {
-    AOS.init({ duration: 2000 });
+    AOS.init({ duration: 500 });
   });
   return (
     <div id="projects" className="w-full pt-8">
       <div className="max-w-[1240px] mx-auto px-2 py-16">
-        <h1 className="pb-2 tracking-wide uppercase text-[#bb86fc]">
+        <h1
+          data-aos="fade-right"
+          className="pb-2 tracking-wide uppercase text-[#bb86fc]"
+        >
           Projects
         </h1>
         <div className="grid gap-8 pt-4 md:grid-cols-2">

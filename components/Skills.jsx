@@ -20,7 +20,7 @@ import "aos/dist/aos.css";
 
 export function Skills() {
   useEffect(() => {
-    AOS.init({ duration: 1500 });
+    AOS.init({ duration: 500 });
   });
   return (
     <div id="skills" className="pt-10 w-full p-2 lg:h-screen">
