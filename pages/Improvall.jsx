@@ -14,7 +14,7 @@ const Improvall = () => {
     <div className="h-full w-full bg-[#111111]">
       <div className="brightness-[0.2]">
         <Image
-          className="object-fill h-[100%] w-[100vw]"
+          className="object-fill h-[100%] w-[100%]"
           src={aboutSvg}
           alt="/"
         />
