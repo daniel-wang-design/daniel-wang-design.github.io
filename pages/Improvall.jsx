@@ -3,10 +3,10 @@ import Image from "next/image";
 import netflixImg from "../public/assets/projects/netflix.jpg";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
-import aboutImage from "../public/assets/about.jpg";
+import improvall1 from "../public/assets/projects/improvall-1.png";
 import "semantic-ui-css/semantic.min.css";
 import { List } from "semantic-ui-react";
-import aboutSvg from "../public/assets/about.svg";
+import improvallCover from "../public/assets/projects/improvall-cover.png";
 import { TypeAnimation } from "react-type-animation";
 import { BsChevronLeft } from "react-icons/bs";
 
@@ -16,7 +16,7 @@ const Improvall = () => {
       <div className="brightness-[0.2]">
         <Image
           className="object-fill h-[100%] w-[100%]"
-          src={aboutSvg}
+          src={improvallCover}
           alt="/"
         />
       </div>
@@ -32,7 +32,7 @@ const Improvall = () => {
           speed={10}
         />
       </div>
-      <div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8">
+      <div className="max-w-[1240px] m-auto grid grid-cols-3 gap-8">
         <div className="col-span-2">
           <h1 className="uppercase tracking-wide pt-16 text-[#bb86fc]">
             Improvall
@@ -43,7 +43,13 @@ const Improvall = () => {
             vestibulum sit amet enim sed fermentum. Praesent at consequat sapien
           </p>
         </div>
-        <Image className="rounded-xl object-fill" src={aboutImage} alt="/" />
+        <div className="p-16">
+          <Image
+            className="rounded-xl object-scale-down w-[20vw]"
+            src={improvall1}
+            alt="/"
+          />
+        </div>
       </div>
       <div className="max-w-[1240px] grid gap-6 w-full h-auto pt-2 m-auto">
         <div>
