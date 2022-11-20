@@ -8,6 +8,7 @@ import "semantic-ui-css/semantic.min.css";
 import { List } from "semantic-ui-react";
 import aboutSvg from "../public/assets/about.svg";
 import { TypeAnimation } from "react-type-animation";
+import { BsChevronLeft } from "react-icons/bs";
 
 const Improvall = () => {
   return (
@@ -19,7 +20,10 @@ const Improvall = () => {
           alt="/"
         />
       </div>
-      <div className="absolute top-[10vh] left-[10vw] lg:top-[30%] lg:left-[10%] sm:top-[10vh] sm:left-[10%] md:top-[30vh] md:left-[10%]">
+      <div
+        className="absolute top-[10vh] left-[10vw] lg:top-[30%]
+      lg:left-[10%] sm:top-[10vh] sm:left-[10%] md:top-[30vh] md:left-[10%]"
+      >
         <TypeAnimation
           sequence={["IMPROVALL", 2000]}
           className="text-[10vw] py-4 tracking-widest text-[#bb86fc]"
@@ -56,6 +60,17 @@ const Improvall = () => {
             <div className="bg-[#bb86fc] p-3 hover:scale-105 rounded-xl text-center">
               <h2 className="text-black">Firebase</h2>
             </div>
+          </div>
+        </div>
+      </div>
+      <div id="contact" className="w-full pb-8">
+        <div className="max-w-[1240px] m-auto  w-full ">
+          <div className="flex justify-center ">
+            <Link href="/">
+              <div className="bg-[#bb86fc] p-4 duration-300 ease-in rounded-full cursor-pointer hover:scale-110">
+                <BsChevronLeft className="text-[#000000]" size={30} />
+              </div>
+            </Link>
           </div>
         </div>
       </div>
