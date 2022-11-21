@@ -77,7 +77,7 @@ export function Skills() {
             <SkillTile image={tailwindImg} text="Tailwind" />
           </div>
           <div data-aos="fade-up">
-            <SkillTile image={boltImg} text="Bolt SDK" />
+            <SkillTile image={boltImg} text="BoltSDK" />
           </div>
           <div data-aos="fade-up">
             <SkillTile image={githubImg} text="GitHub" />
