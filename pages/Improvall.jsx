@@ -33,7 +33,7 @@ const Improvall = () => {
           speed={10}
         />
       </div>
-      <div className="max-w-[1240px] m-auto grid grid-cols-3 gap-8">
+      <div className="max-w-[1240px] m-auto grid grid-cols-3 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-8">
         <div className="col-span-2">
           <h1 className="uppercase tracking-wide pt-16 text-[#bb86fc]">
             Improvall
