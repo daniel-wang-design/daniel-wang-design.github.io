@@ -33,7 +33,7 @@ const Improvall = () => {
           speed={10}
         />
       </div>
-      <div className="max-w-[1240px] m-auto grid grid-cols-3 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-8">
+      <div className="p-8 max-w-[1240px] m-auto grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-8">
         <div className="col-span-2">
           <h1 className="uppercase tracking-wide pt-16 text-[#bb86fc]">
             Improvall
@@ -43,7 +43,7 @@ const Improvall = () => {
             euismod ex at nulla convallis, ut pellentesque justo pulvinar. Nam
             vestibulum sit amet enim sed fermentum. Praesent at consequat sapien
           </p>
-          <div className="items-center m-auto w-[15vw] pt-16">
+          <div className="items-center m-auto lg:w-[15vw] md:w-[30vw] sm:w-[30vw] pt-16">
             <Link
               href="https://play.google.com/store/apps/details?id=ca.improvall.android"
               target={"_blank"}
@@ -52,15 +52,15 @@ const Improvall = () => {
             </Link>
           </div>
         </div>
-        <div className="p-16">
+        <div className="p-16 w-[80vw] lg:w-[30vw] md:w-[30vw] sm:w-[30vw]">
           <Image
-            className="rounded-xl object-scale-down w-[20vw]"
+            className="rounded-xl object-scale-down"
             src={improvall1}
             alt="/"
           />
         </div>
       </div>
-      <div className="max-w-[1240px] grid gap-6 w-full h-auto pt-2 m-auto">
+      <div className="p-8 max-w-[1240px] grid gap-6 w-full h-auto pt-2 m-auto">
         <div>
           <h3 className="uppercase tracking-wide text-[#ffffff]">
             Programming Languages and Technologies
@@ -78,7 +78,7 @@ const Improvall = () => {
           </div>
         </div>
       </div>
-      <div id="contact" className="w-full pb-8">
+      <div className="w-full pb-8 pt-16">
         <div className="max-w-[1240px] m-auto  w-full ">
           <div className="flex justify-center ">
             <Link href="/">
