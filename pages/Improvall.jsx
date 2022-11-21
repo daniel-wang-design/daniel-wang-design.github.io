@@ -9,6 +9,7 @@ import { List } from "semantic-ui-react";
 import improvallCover from "../public/assets/projects/improvall-cover.png";
 import { TypeAnimation } from "react-type-animation";
 import { BsChevronLeft } from "react-icons/bs";
+import googlePlayBadge from "../public/assets/projects/google-play-badge.png";
 
 const Improvall = () => {
   return (
@@ -42,6 +43,14 @@ const Improvall = () => {
             euismod ex at nulla convallis, ut pellentesque justo pulvinar. Nam
             vestibulum sit amet enim sed fermentum. Praesent at consequat sapien
           </p>
+          <div className="items-center m-auto w-[15vw] pt-16">
+            <Link
+              href="https://play.google.com/store/apps/details?id=ca.improvall.android"
+              target={"_blank"}
+            >
+              <Image className="object-fill" src={googlePlayBadge} alt="/" />
+            </Link>
+          </div>
         </div>
         <div className="p-16">
           <Image
