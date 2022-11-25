@@ -21,7 +21,7 @@ export const Projects = () => {
       <div className="max-w-[1240px] mx-auto px-2 py-16">
         <h1
           data-aos="fade-right"
-          className="pb-2 tracking-wide uppercase text-[#bb86fc]"
+          className="pb-2 tracking-wide uppercase pb-16 text-[#bb86fc]"
         >
           Projects
         </h1>
@@ -57,7 +57,7 @@ export const Projects = () => {
             </div>
             <div data-aos="fade-right">
               <h2 className="pb-2 tracking-wide text-[#bb86fc]">
-                Slack PollApp
+                Slack Polling App
               </h2>
               <p className="text-white pt-4">
                 dflskj slfkjwoj lskjfsldkjf slkjf dslfk d sljwfopjdslf jfea
