@@ -6,8 +6,9 @@ import ProjectItem from "./ProjectItem";
 import cryptoImg from "../public/assets/projects/crypto.jpg";
 import netflixImg from "../public/assets/projects/netflix.jpg";
 import twitchImg from "../public/assets/projects/twitch.jpg";
-import pollappImg from "../public/assets/projects/pollapp-cover.png"
-import websiteImg from "../public/assets/projects/website-cover.png"
+import pollappImg from "../public/assets/projects/pollapp-cover.png";
+import websiteImg from "../public/assets/projects/website-cover.png";
+import focusyouthImg from "../public/assets/projects/focusyouth-cover.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -46,16 +47,6 @@ export const Projects = () => {
             </div>
           </div>
           <div className="grid gap-8 md:grid-cols-2">
-            <div data-aos="fade-right">
-              <h2 className="pb-2 tracking-wide text-[#bb86fc]">Slack PollApp</h2>
-              <p className="text-white pt-4">
-                dflskj slfkjwoj lskjfsldkjf slkjf dslfk d sljwfopjdslf jfea
-                dskjs dflkjds lj lfjfdsadflskj slfkjwoj lskjfsldkjf slkjf dslfk
-                d sljwfopjdslf jfea dskjs dflkjds lj lfjfdsadflskj slfkjwoj
-                lskjfsldkjf slkjf dslfk d sljwfopjdslf jfea dskjs dflkjds lj
-                lfjfdsa
-              </p>
-            </div>
             <div data-aos="fade-up" className="">
               <ProjectItem
                 title="Slack Polling App"
@@ -63,6 +54,18 @@ export const Projects = () => {
                 projectURL="/"
                 text="BoltSDK | Java | AmazonS3"
               />
+            </div>
+            <div data-aos="fade-right">
+              <h2 className="pb-2 tracking-wide text-[#bb86fc]">
+                Slack PollApp
+              </h2>
+              <p className="text-white pt-4">
+                dflskj slfkjwoj lskjfsldkjf slkjf dslfk d sljwfopjdslf jfea
+                dskjs dflkjds lj lfjfdsadflskj slfkjwoj lskjfsldkjf slkjf dslfk
+                d sljwfopjdslf jfea dskjs dflkjds lj lfjfdsadflskj slfkjwoj
+                lskjfsldkjf slkjf dslfk d sljwfopjdslf jfea dskjs dflkjds lj
+                lfjfdsa
+              </p>
             </div>
           </div>
           <div className="grid gap-8 md:grid-cols-2">
@@ -75,7 +78,9 @@ export const Projects = () => {
               />
             </div>
             <div data-aos="fade-right">
-              <h2 className="pb-2 tracking-wide text-[#bb86fc]">Personal Website</h2>
+              <h2 className="pb-2 tracking-wide text-[#bb86fc]">
+                Personal Website
+              </h2>
               <p className="text-white pt-4">
                 dflskj slfkjwoj lskjfsldkjf slkjf dslfk d sljwfopjdslf jfea
                 dskjs dflkjds lj lfjfdsadflskj slfkjwoj lskjfsldkjf slkjf dslfk
@@ -84,24 +89,24 @@ export const Projects = () => {
                 lfjfdsa
               </p>
             </div>
-          </div>{" "}
+          </div>
           <div className="grid gap-8 md:grid-cols-2">
-            <div data-aos="fade-right">
-              <h3 className="pb-2 tracking-wide text-[#bb86fc]">Improvall</h3>
-              <p className="text-white pt-4">
-                dflskj slfkjwoj lskjfsldkjf slkjf dslfk d sljwfopjdslf jfea
-                dskjs dflkjds lj lfjfdsadflskj slfkjwoj lskjfsldkjf slkjf dslfk
-                d sljwfopjdslf jfea dskjs dflkjds lj lfjfdsadflskj slfkjwoj
-                lskjfsldkjf slkjf dslfk d sljwfopjdslf jfea dskjs dflkjds lj
-                lfjfdsa
-              </p>
-            </div>
             <div data-aos="fade-up" className="">
               <ProjectItem
                 title="Improvall Mobile App"
-                backgroundImg={improvallImg}
-                projectURL="/Improvall"
+                backgroundImg={focusyouthImg}
+                projectURL="/"
               />
+            </div>
+            <div data-aos="fade-right">
+              <h2 className="pb-2 tracking-wide text-[#bb86fc]">FOCUS Youth</h2>
+              <p className="text-white pt-4">
+                dflskj slfkjwoj lskjfsldkjf slkjf dslfk d sljwfopjdslf jfea
+                dskjs dflkjds lj lfjfdsadflskj slfkjwoj lskjfsldkjf slkjf dslfk
+                d sljwfopjdslf jfea dskjs dflkjds lj lfjfdsadflskj slfkjwoj
+                lskjfsldkjf slkjf dslfk d sljwfopjdslf jfea dskjs dflkjds lj
+                lfjfdsa
+              </p>
             </div>
           </div>
         </div>
