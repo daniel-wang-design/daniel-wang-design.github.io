@@ -18,13 +18,16 @@ export const Projects = () => {
   });
   return (
     <div id="projects" className="w-full pt-8">
-      <div className="max-w-[1240px] mx-auto px-2 py-16">
+      <div className="max-w-[1240px] mx-auto px-2">
         <h1
           data-aos="fade-right"
-          className="pb-2 tracking-wide uppercase pb-16 text-[#bb86fc]"
+          className="pb-6 tracking-wide uppercase text-[#bb86fc]"
         >
           Projects
         </h1>
+        <p data-aos="fade-right" className="text-white pb-12">
+          Below is a showcase of some of my past projects. Hover over each image to learn more!
+        </p>
         <div className="grid gap-8 pt-4">
           <div className="grid gap-8 md:grid-cols-2">
             <div data-aos="fade-up" className="">
