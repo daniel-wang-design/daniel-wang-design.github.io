@@ -7,6 +7,12 @@ import improvall1 from "../public/assets/projects/improvall-1.png";
 import "semantic-ui-css/semantic.min.css";
 import { List } from "semantic-ui-react";
 import improvallCover from "../public/assets/projects/improvall-cover.png";
+import improvall2 from "../public/assets/projects/improvall-2.png";
+import improvall3 from "../public/assets/projects/improvall-3.png";
+import improvall4 from "../public/assets/projects/improvall-4.png";
+import improvall5 from "../public/assets/projects/improvall-5.png";
+import improvall6 from "../public/assets/projects/improvall-6.png";
+
 import { TypeAnimation } from "react-type-animation";
 import { BsChevronLeft } from "react-icons/bs";
 import googlePlayBadge from "../public/assets/projects/google-play-badge.png";
@@ -78,6 +84,17 @@ const Improvall = () => {
           </div>
         </div>
       </div>
+      <div className="p-8 max-w-[1240px] w-full h-auto pt-2 m-auto">
+        <h1 className="text-[#bb86fc] tracking-wide">PRODUCT SHOWCASE</h1>
+        <div className="gap-2 pt-10 grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5">
+          <Image className="rounded-xl object-fill w-[100vw]" src={improvall2} alt="/" />
+          <Image className="rounded-xl object-fill w-[100vw]" src={improvall3} alt="/" />
+          <Image className="rounded-xl object-fill w-[100vw]" src={improvall4} alt="/" />
+          <Image className="rounded-xl object-fill w-[100vw]" src={improvall5} alt="/" />
+          <Image className="rounded-xl object-fill w-[100vw]" src={improvall6} alt="/" />
+        </div>
+      </div>
+
       <div className="w-full pb-8 pt-16">
         <div className="max-w-[1240px] m-auto  w-full ">
           <div className="flex justify-center ">
