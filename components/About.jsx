@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import Image from "next/image";
-import aboutImage from "../public/assets/about.jpg";
+import profile from "../public/assets/profile.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -21,15 +21,9 @@ export const About = () => {
         </div>
         <div
           data-aos="fade-up"
-          className="flex items-center justify-center w-full h-auto pt-2 m-auto duration-300 ease-in rounded-xl  hover:scale-105"
+          className=" w-[80%] pt-16 h-auto m-auto "
         >
-          <Image
-            className="rounded-xl"
-            src={aboutImage}
-            alt="/"
-            width="1000"
-            height="100"
-          />
+          <Image className="rounded-xl duration-300 ease-in hover:scale-105"src={profile} alt="/" />
         </div>
       </div>
     </div>
