@@ -108,7 +108,6 @@ const Improvall = () => {
           />
         </div>
       </div>
-
       <div className="w-full pb-8 pt-16">
         <div className="max-w-[1240px] m-auto  w-full ">
           <div className="flex justify-center ">
