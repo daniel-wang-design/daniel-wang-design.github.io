@@ -38,8 +38,8 @@ const Improvall = () => {
           speed={10}
         />
       </div>
-      <div className="p-8 max-w-[1240px] m-auto grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-8">
-        <div className="col-span-2">
+      <div className="p-8 max-w-[1240px] m-auto grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+        <div className="lg:col-span-3 md:col-span-2 col-span-2">
           <h1 className="uppercase tracking-wide pt-16 text-[#bb86fc]">
             Improvall
           </h1>
@@ -57,7 +57,7 @@ const Improvall = () => {
             </Link>
           </div>
         </div>
-        <div className="p-16 w-[80vw] lg:w-[30vw] md:w-[30vw] sm:w-[30vw]">
+        <div className="p-16 w-[80vw] lg:w-[25vw] md:w-[30vw] sm:w-[30vw]">
           <Image
             className="rounded-xl object-scale-down"
             src={improvall1}
