@@ -13,6 +13,14 @@ export const Navbar = () => {
   const [nav, setNav] = useState(false);
   const textColor = "#bb86fc";
 
+  useEffect(() => {
+    const html = document.querySelector("html");
+    if (nav) {
+      html.style.overflow = "hidden";
+    } else {
+      html.style.overflow = "auto";
+    }
+  });
   const handleNav = () => {
     setNav(!nav);
   };
