@@ -19,11 +19,12 @@ export const About = () => {
             vestibulum sit amet enim sed fermentum. Praesent at consequat sapien
           </p>
         </div>
-        <div
-          data-aos="fade-up"
-          className=" w-[80%] pt-16 h-auto m-auto "
-        >
-          <Image className="rounded-xl duration-300 ease-in hover:scale-105"src={profile} alt="/" />
+        <div data-aos="fade-up" className=" w-[80%] pt-16 h-auto m-auto ">
+          <Image
+            className="rounded-xl duration-300 ease-in hover:scale-105 w-[80%]"
+            src={profile}
+            alt="/"
+          />
         </div>
       </div>
     </div>
