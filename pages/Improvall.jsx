@@ -1,11 +1,8 @@
 import React, { useEffect } from "react";
 import Image from "next/image";
-import netflixImg from "../public/assets/projects/netflix.jpg";
-import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
 import improvall1 from "../public/assets/projects/improvall-1.png";
 import "semantic-ui-css/semantic.min.css";
-import { List } from "semantic-ui-react";
 import improvallCover from "../public/assets/projects/improvall-cover.png";
 import improvall2 from "../public/assets/projects/improvall-2.png";
 import improvall3 from "../public/assets/projects/improvall-3.png";
@@ -16,7 +13,6 @@ import "aos/dist/aos.css";
 import { TypeAnimation } from "react-type-animation";
 import { BsChevronLeft } from "react-icons/bs";
 import googlePlayBadge from "../public/assets/projects/google-play-badge.png";
-
 const Improvall = () => {
   useEffect(() => {
     AOS.init({ duration: 500 });
