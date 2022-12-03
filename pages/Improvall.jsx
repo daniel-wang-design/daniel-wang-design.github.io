@@ -47,14 +47,20 @@ const Improvall = () => {
             Improvall
           </h1>
           <p className="py-2 text-[#ffffff]">
-            <b>App Features:</b> 
-
-            
-            <b>About Improvall:</b>
-            Improvall is a paid productivity app created
-            by Improvall as part of the Junior Achievement Central Ontario
-            Program. the app is no longer available on the Apple App Store but
-            can still be downloaded on the Google Play Store.
+            <b>Improvall </b>
+            is a productivity app that encourages studying through friendly
+            competition. Built upon the Flutter framework, and using the
+            programming language Dart
+            <br />
+            <br />
+            <b>App Features: </b>
+            <br />
+            <br />
+            <b>About Improvall: </b>
+            Improvall is a paid productivity app created by Improvall as part of
+            the Junior Achievement Central Ontario Program. the app is no longer
+            available on the Apple App Store but can still be downloaded on the
+            Google Play Store.
           </p>
           <div className="items-center m-auto lg:w-[15vw] md:w-[30vw] sm:w-[30vw] pt-16">
             <Link
