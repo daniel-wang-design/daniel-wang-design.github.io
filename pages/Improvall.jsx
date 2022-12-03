@@ -47,9 +47,14 @@ const Improvall = () => {
             Improvall
           </h1>
           <p className="py-2 text-[#ffffff]">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
-            euismod ex at nulla convallis, ut pellentesque justo pulvinar. Nam
-            vestibulum sit amet enim sed fermentum. Praesent at consequat sapien
+            <b>App Features:</b> 
+
+            
+            <b>About Improvall:</b>
+            Improvall is a paid productivity app created
+            by Improvall as part of the Junior Achievement Central Ontario
+            Program. the app is no longer available on the Apple App Store but
+            can still be downloaded on the Google Play Store.
           </p>
           <div className="items-center m-auto lg:w-[15vw] md:w-[30vw] sm:w-[30vw] pt-16">
             <Link
@@ -87,7 +92,7 @@ const Improvall = () => {
         </div>
       </div>
       <div className="p-8 max-w-[1240px] w-full h-auto pt-2 m-auto">
-        <h1 className="text-[#bb86fc] tracking-wide">PRODUCT SHOWCASE</h1>
+        <h1 className="text-[#bb86fc] tracking-wide">PRODUCT GALLERY</h1>
         <div className="gap-3 pt-10 grid grid-cols-2 md:grid-cols-4 lg:grid-cols-4">
           <Image
             className="rounded-xl object-fill w-[100vw] hover:scale-105"
