@@ -14,7 +14,7 @@ import googlePlayBadge from "../public/assets/projects/google-play-badge.png";
 import appleAppStore from "../public/assets/projects/improvall-apple.png";
 import github from "../public/assets/projects/github.png";
 
-const Improvall = () => {
+const focusyouth = () => {
   return (
     <div className="h-full w-full bg-[#111111]">
       <div className="relative">
@@ -200,4 +200,4 @@ const Improvall = () => {
   );
 };
 
-export default Improvall;
+export default focusyouth;
