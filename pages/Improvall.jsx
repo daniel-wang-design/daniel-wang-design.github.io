@@ -46,16 +46,43 @@ const Improvall = () => {
           <h1 className="uppercase tracking-wide pt-16 text-[#bb86fc]">
             Improvall
           </h1>
-          <p className="py-2 text-[#ffffff]">
+          <p className="py-2 text-[#ffffff] leading-8">
             <b>Improvall </b>
             is a productivity app that encourages studying through friendly
             competition. Built upon the Flutter framework, and using the
-            programming language Dart
-            <br />
-            <br />
+            programming language Dart. App data is stored locally and
+            leaderboard data is maintained using Firebase.
+          </p>
+          <p className="py-2 text-[#ffffff]">
             <b>App Features: </b>
-            <br />
-            <br />
+          </p>
+          <div className="pl-8">
+            <ul className="list-disc list-inside pointer-events-none leading-10 text-[#ffffff]">
+              <li>
+                <b>Notifications </b> to remind you of upcoming tasks.
+              </li>
+              <li>
+                <b>Focus </b> on your work, Exiting the app will restart a task.
+              </li>
+              <li>
+                <b>Leaderboard </b> showing your number of productive hours
+                compared to others.
+              </li>
+              <li>
+                <b>Trends </b> to your study habits over time are show in a
+                time-hour graph.
+              </li>
+              <li>
+                <b>Progress </b> to your current task is saved for you to take
+                breaks.
+              </li>
+              <li>
+                <b>Data </b> of your past tasks is available for you to look
+                back anytime.
+              </li>
+            </ul>
+          </div>
+          <p className="pb-2 pt-6 text-[#ffffff] leading-8">
             <b>About Improvall: </b>
             Improvall is a paid productivity app created by Improvall as part of
             the Junior Achievement Central Ontario Program. the app is no longer
