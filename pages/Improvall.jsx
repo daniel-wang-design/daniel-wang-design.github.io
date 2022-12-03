@@ -22,7 +22,7 @@ const Improvall = () => {
       <div className="relative">
         <div className="brightness-[0.2]">
           <Image
-            className="object-fill h-[100%] w-[100%]"
+            className="object-fill h-[100%] w-[100%] blur-sm"
             src={improvallCover}
             alt="/"
           />
