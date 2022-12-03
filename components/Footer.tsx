@@ -5,7 +5,7 @@ import { BsChevronUp } from "react-icons/bs";
 
 export const Footer = () => {
   return (
-    <div id="contact" className="w-full pb-8">
+    <div id="contact" className="w-full pb-8 md:pt-0 lg:pt-0 pt-12">
       <div className="max-w-[1240px] m-auto  w-full ">
         <div className="flex justify-center ">
           <Link href="/">

@@ -27,7 +27,7 @@ const Improvall = () => {
         </div>
         <div
           className="absolute top-[10vh] left-[10vw] lg:top-[30%]
-      lg:left-[10%] sm:top-[10vh] sm:left-[10%] md:top-[30vh] md:left-[10%] max-w-[1240px]"
+      lg:left-[10%] sm:top-[10vh] sm:left-[10%] md:top-[30vh] md:left-[10%]"
         >
           <TypeAnimation
             sequence={["IMPROVALL", 2000]}
