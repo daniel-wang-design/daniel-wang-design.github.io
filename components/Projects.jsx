@@ -26,7 +26,8 @@ export const Projects = () => {
           Projects
         </h1>
         <p data-aos="fade-right" className="text-white pb-12">
-          Below is a showcase of some of my past projects. Hover over each image to learn more!
+          Below is a showcase of some of my past projects. Hover over each image
+          to learn more!
         </p>
         <div className="grid gap-8 pt-4">
           <div className="grid gap-8 md:grid-cols-2">
@@ -54,7 +55,7 @@ export const Projects = () => {
               <ProjectItem
                 title="Slack Polling App"
                 backgroundImg={pollappImg}
-                projectURL="/"
+                projectURL="/slackapp"
                 text="BoltSDK | Java | AmazonS3"
               />
             </div>
@@ -76,7 +77,7 @@ export const Projects = () => {
               <ProjectItem
                 title="Personal Website"
                 backgroundImg={websiteImg}
-                projectURL="/"
+                projectURL="/personalwebsite"
                 text="NextJS | JS | TailwindCSS"
               />
             </div>
@@ -96,9 +97,10 @@ export const Projects = () => {
           <div className="grid gap-8 md:grid-cols-2">
             <div data-aos="fade-up" className="">
               <ProjectItem
-                title="Improvall Mobile App"
+                title="FOCUS Youth Website"
                 backgroundImg={focusyouthImg}
-                projectURL="/"
+                text="HTML | CSS | JS"
+                projectURL="/focusyouth"
               />
             </div>
             <div data-aos="fade-right">
