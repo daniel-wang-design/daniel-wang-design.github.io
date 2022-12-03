@@ -11,6 +11,8 @@ import improvall5 from "../public/assets/projects/improvall-5.png";
 import { TypeAnimation } from "react-type-animation";
 import { BsChevronLeft } from "react-icons/bs";
 import googlePlayBadge from "../public/assets/projects/google-play-badge.png";
+import appleAppStore from "../public/assets/projects/improvall-apple.png";
+import github from "../public/assets/projects/github.png";
 
 const Improvall = () => {
   return (
@@ -37,7 +39,7 @@ const Improvall = () => {
         </div>
       </div>
 
-      <div className="p-8 max-w-[1240px] m-auto grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+      <div className="p-8 max-w-[1240px] m-auto grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 items-center">
         <div className="lg:col-span-3 md:col-span-2 col-span-2">
           <h1 className="uppercase tracking-wide pt-16 text-[#bb86fc]">
             Improvall
@@ -79,25 +81,58 @@ const Improvall = () => {
             </ul>
           </div>
           <p className="pb-2 pt-6 text-[#ffffff] leading-8">
-            <b>About Improvall: </b>
-            Improvall is a paid productivity app created by Improvall as part of
-            the Junior Achievement Central Ontario Program. the app is no longer
-            available on the Apple App Store but can still be downloaded on the
-            Google Play Store.
+            <b>Store Listings: </b>
+            Improvall was released on both the Apple App Store and Google Play
+            Store March 26, 2021 for approximately one month. In that time, the
+            app generated a total revenue of <b>$156.37</b>, from 48 downloads.
+            In addition, the app was able to peak <b>#3</b> on the Apple App
+            Store under Paid Productivity Apps!
           </p>
-          <div className="items-center m-auto lg:w-[15vw] md:w-[30vw] sm:w-[30vw] pt-16">
-            <Link
-              href="https://play.google.com/store/apps/details?id=ca.improvall.android"
-              target={"_blank"}
-            >
-              <Image className="object-fill" src={googlePlayBadge} alt="/" />
-            </Link>
+          <p className="pb-2 pt-6 text-[#ffffff] leading-8">
+            <b>About Improvall: </b>
+            Improvall is part of the Junior Achievement Central Ontario Program.
+            The app is no longer available on the Apple App Store but can still
+            be downloaded on the Google Play Store. As the Vice President of
+            Technology and Vice President of Product, I led a team of 4
+            responsible for the design, creation, and production of the app.
+          </p>
+          <div className="grid md:grid-cols-2">
+            <div>
+              <p className="text-[#ffffff] leading-8">View on GitHub:</p>
+              <div className="m-auto lg:w-[15vw] md:w-[30vw] sm:w-[30vw]">
+                <div className="bg-[#bb86fc] rounded-xl p-4 hover:scale-105">
+                  <Link
+                    href="https://github.com/daniel-wang-design/improvall"
+                    target={"_blank"}
+                  >
+                    <Image className="object-fill" src={github} alt="/" />
+                  </Link>
+                </div>
+              </div>
+            </div>
+            <div className="md:pt-0 lg:pt-0 pt-8">
+              <p className="text-[#ffffff] leading-8">View on Google Play:</p>
+              <div className="m-auto lg:w-[15vw] md:w-[30vw] sm:w-[30vw]">
+                <div className="m-auto lg:w-[15vw] md:w-[30vw] sm:w-[30vw] hover:scale-105">
+                  <Link
+                    href="https://play.google.com/store/apps/details?id=ca.improvall.android"
+                    target={"_blank"}
+                  >
+                    <Image
+                      className="object-fill"
+                      src={googlePlayBadge}
+                      alt="/"
+                    />
+                  </Link>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-        <div className="p-16 w-[80vw] lg:w-[25vw] md:w-[30vw] sm:w-[30vw]">
+        <div className="p-8 w-[80vw] lg:w-[25vw] md:w-[30vw] sm:w-[30vw]">
           <Image
             className="rounded-xl object-scale-down"
-            src={improvall1}
+            src={appleAppStore}
             alt="/"
           />
         </div>
@@ -122,7 +157,12 @@ const Improvall = () => {
       </div>
       <div className="p-8 max-w-[1240px] w-full h-auto pt-2 m-auto">
         <h1 className="text-[#bb86fc] tracking-wide">PRODUCT GALLERY</h1>
-        <div className="gap-3 pt-10 grid grid-cols-2 md:grid-cols-4 lg:grid-cols-4">
+        <div className="gap-3 pt-10 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5">
+          <Image
+            className="rounded-xl object-fill w-[100vw] hover:scale-105"
+            src={improvall1}
+            alt="/"
+          />
           <Image
             className="rounded-xl object-fill w-[100vw] hover:scale-105"
             src={improvall2}
