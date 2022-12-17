@@ -8,11 +8,7 @@ import logoWhite from "../public/assets/logoWhite.png";
 import logoBlack from "../public/assets/logoBlack.png";
 import { SlMenu } from "react-icons/sl";
 import NavbarOptions from "./NavbarOptions";
-import {
-  disableBodyScroll,
-  enableBodyScroll,
-  clearAllBodyScrollLocks,
-} from "body-scroll-lock";
+
 
 export const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -22,10 +18,8 @@ export const Navbar = () => {
     const html = document.querySelector("html");
     if (nav) {
       html.style.overflow = "hidden";
-      disableBodyScroll(document.querySelector('#targetElementId'));
     } else {
       html.style.overflow = "auto";
-      enableBodyScroll(document.querySelector('#targetElementId'));
     }
   });
   const handleNav = () => {

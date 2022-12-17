@@ -39,42 +39,41 @@ const Improvall = () => {
         </div>
       </div>
 
-      <div className="p-8 max-w-[1240px] m-auto grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 items-center">
+      <div className="p-8 max-w-[1240px] m-auto grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 content-center">
         <div className="lg:col-span-3 md:col-span-2 col-span-2">
-          <h1 className="uppercase tracking-wide pt-16 text-[#bb86fc]">
-            Improvall
-          </h1>
+          <h1 className="uppercase tracking-wide text-[#bb86fc]">Improvall</h1>
           <p className="py-2 text-[#ffffff] leading-8">
             <b>Improvall </b>
             is a productivity app that encourages studying through friendly
             competition. Built upon the Flutter framework, and using the
-            programming language Dart. App data is stored locally and
-            leaderboard data is maintained using Firebase.
+            programming language Dart, the app is available on both iOS and
+            Android. App data is stored locally and leaderboard data is
+            maintained using Firebase.
           </p>
           <p className="py-2 text-[#ffffff]">
             <b>App Features: </b>
           </p>
           <div className="pl-8">
             <ul className="list-disc list-inside pointer-events-none leading-10 text-[#ffffff]">
-              <li>
+              <li className="text-lg">
                 <b>Notifications </b> to remind you of upcoming tasks.
               </li>
-              <li>
+              <li className="text-lg">
                 <b>Focus </b> on your work, Exiting the app will restart a task.
               </li>
-              <li>
+              <li className="text-lg">
                 <b>Leaderboard </b> showing your number of productive hours
                 compared to others.
               </li>
-              <li>
+              <li className="text-lg">
                 <b>Trends </b> to your study habits over time are show in a
                 time-hour graph.
               </li>
-              <li>
+              <li className="text-lg">
                 <b>Progress </b> to your current task is saved for you to take
                 breaks.
               </li>
-              <li>
+              <li className="text-lg">
                 <b>Data </b> of your past tasks is available for you to look
                 back anytime.
               </li>
@@ -129,7 +128,7 @@ const Improvall = () => {
             </div>
           </div>
         </div>
-        <div className="p-8 w-[80vw] lg:w-[25vw] md:w-[30vw] sm:w-[30vw]">
+        <div className="p-8 w-[80vw] lg:w-[25vw] md:w-[30vw] sm:w-[30vw] hover:scale-105">
           <Image
             className="rounded-xl object-scale-down"
             src={appleAppStore}
@@ -142,7 +141,7 @@ const Improvall = () => {
           <h3 className="uppercase tracking-wide text-[#ffffff]">
             Programming Languages and Technologies
           </h3>
-          <div className="gap-6 flex grid-cols-5 md:grid-cols-5 sm:3 items-center">
+          <div className="gap-6 md:lg:flex grid grid-rows-3">
             <div className="bg-[#bb86fc] p-3 hover:scale-105 rounded-xl text-center">
               <h2 className="text-black">Dart</h2>
             </div>

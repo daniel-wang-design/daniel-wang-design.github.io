@@ -6,6 +6,9 @@
   body {
     @apply bg-[#ecf0f3] text-[#1f2937] tracking-wide;
   }
+  p {
+    font-size: large
+  }
   h1,
   h2,
   h3,
