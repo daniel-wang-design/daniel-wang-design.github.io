@@ -47,8 +47,25 @@ const personalwebsite = () => {
           <p className="py-2 text-[#ffffff] leading-8">
             This is my personal website showcasing some of my coding
             experiences. All code for the website was written from scratch using
-            React and Tailwind CSS. The website is hosted using
+            React and Tailwind CSS. The website is hosted using Vercel.
           </p>
+          <br />
+
+          <p className="py-2 text-[#ffffff] leading-8">
+            Website credits: All images are either copyright free, or produced
+            by myself. Special thanks to Angelina Zhou (
+            {
+              <Link
+                className="inline-block text-[#bb86fc]"
+                href="https://www.instagram.com/angielligraphy/"
+                target="_blank"
+              >
+                @angielligraphy
+              </Link>
+            }
+            ) for designing the navbar logo.
+          </p>
+
           <div>
             <p className="text-[#ffffff] leading-8 text-center">
               View on GitHub:
@@ -58,11 +75,27 @@ const personalwebsite = () => {
             lg:w-[15vw] md:w-[30vw] sm:w-[30vw]"
             >
               <Link
-                href="https://github.com/daniel-wang-design/improvall"
+                href="https://github.com/daniel-wang-design/daniel-wang-design.github.io"
                 target={"_blank"}
               >
                 <Image className="object-fill" src={github} alt="/" />
               </Link>
+            </div>
+          </div>
+          <div className="pt-32 m-auto">
+            <h3 className="uppercase tracking-wide text-[#ffffff]">
+              Programming Languages and Technologies
+            </h3>
+            <div className="gap-6 md:lg:flex grid grid-rows-3">
+              <div className="bg-[#bb86fc] p-3 hover:scale-105 rounded-xl text-center">
+                <h2 className="text-black">React</h2>
+              </div>
+              <div className="bg-[#bb86fc] p-3 hover:scale-105 rounded-xl text-center">
+                <h2 className="text-black">Tailwind CSS</h2>
+              </div>
+              <div className="bg-[#bb86fc] p-3 hover:scale-105 rounded-xl text-center">
+                <h2 className="text-black">JavaScript</h2>
+              </div>
             </div>
           </div>
         </div>
@@ -73,22 +106,6 @@ const personalwebsite = () => {
               src={personalwebsite1}
               alt="/"
             />
-          </div>
-        </div>
-      </div>
-      <div className="p-8 max-w-[1240px] gap-6 w-full h-auto pt-2 m-auto">
-        <h3 className="uppercase tracking-wide text-[#ffffff]">
-          Programming Languages and Technologies
-        </h3>
-        <div className="gap-6 md:lg:flex grid grid-rows-3">
-          <div className="bg-[#bb86fc] p-3 hover:scale-105 rounded-xl text-center">
-            <h2 className="text-black">React</h2>
-          </div>
-          <div className="bg-[#bb86fc] p-3 hover:scale-105 rounded-xl text-center">
-            <h2 className="text-black">Tailwind CSS</h2>
-          </div>
-          <div className="bg-[#bb86fc] p-3 hover:scale-105 rounded-xl text-center">
-            <h2 className="text-black">JavaScript</h2>
           </div>
         </div>
       </div>
