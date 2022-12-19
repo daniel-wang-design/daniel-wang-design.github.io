@@ -25,7 +25,7 @@ export function Skills() {
     AOS.init({ duration: 500 });
   });
   return (
-    <div id="skills" className="pt-[200px] w-full p-2 lg:h-screen">
+    <div id="skills" className="lg:pt-[200px] pt-16 w-full p-2 lg:h-screen">
       <div className="lg:pt-48 max-w-[1240px] mx-auto flex flex-col justify-center h-full">
         <h1
           data-aos="fade-right"
