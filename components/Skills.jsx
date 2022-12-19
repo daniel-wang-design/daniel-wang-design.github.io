@@ -15,6 +15,8 @@ import SkillTile from "./SkillTile";
 import flutterImg from "../public/assets/skills/flutter.png";
 import tailwindImg from "../public/assets/skills/tailwind.png";
 import nextjsImg from "../public/assets/skills/nextjs.png";
+import mavenImg from "../public/assets/skills/maven.png";
+
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -23,7 +25,7 @@ export function Skills() {
     AOS.init({ duration: 500 });
   });
   return (
-    <div id="skills" className="py-16 w-full p-2 lg:h-screen">
+    <div id="skills" className="pt-[200px] w-full p-2 lg:h-screen">
       <div className="lg:pt-48 max-w-[1240px] mx-auto flex flex-col justify-center h-full">
         <h1
           data-aos="fade-right"
@@ -65,22 +67,25 @@ export function Skills() {
             <SkillTile image={firebaseImg} text="Firebase" />
           </div>
           <div data-aos="fade-up">
-            <SkillTile image={reactImg} text="React" />
+            <SkillTile image={reactImg} text="React" padding={0}/>
           </div>
           <div data-aos="fade-up">
-            <SkillTile image={flutterImg} text="Flutter" />
+            <SkillTile image={flutterImg} text="Flutter" padding={0}/>
           </div>
           <div data-aos="fade-up">
-            <SkillTile image={nextjsImg} text="NextJS" />
+            <SkillTile image={nextjsImg} text="NextJS" padding={0}/>
           </div>
           <div data-aos="fade-up">
-            <SkillTile image={tailwindImg} text="Tailwind" />
+            <SkillTile image={tailwindImg} text="Tailwind" padding={0}/>
           </div>
           <div data-aos="fade-up">
-            <SkillTile image={boltImg} text="BoltSDK" />
+            <SkillTile image={mavenImg} text="Maven"  padding={12}/>
           </div>
           <div data-aos="fade-up">
-            <SkillTile image={githubImg} text="GitHub" />
+            <SkillTile image={boltImg} text="BoltSDK" padding={0}/>
+          </div>
+          <div data-aos="fade-up">
+            <SkillTile image={githubImg} text="GitHub" padding={0}/>
           </div>
         </div>
       </div>
