@@ -118,12 +118,11 @@ const slackapp = () => {
           />
         </div>
       </div>
-      <div className="p-8 max-w-[1240px] grid gap-6 w-full h-auto pt-2 m-auto">
-        <div>
-          <h3 className="uppercase tracking-wide text-[#ffffff]">
-            Programming Languages and Technologies
-          </h3>
-          <div className="gap-6 flex grid-cols-5 md:grid-cols-5 sm:3 items-center">
+      <div className="p-8 max-w-[1240px] w-full h-auto pt-2 m-auto">
+        <h3 className="uppercase tracking-wide text-[#ffffff]">
+          Programming Languages and Technologies
+        </h3>
+        <div className="grid md:lg:flex grid-rows-4 gap-6">
             <div className="bg-[#bb86fc] p-3 hover:scale-105 rounded-xl text-center">
               <h2 className="text-black">Java</h2>
             </div>
@@ -136,20 +135,11 @@ const slackapp = () => {
             <div className="bg-[#bb86fc] p-3 hover:scale-105 rounded-xl text-center">
               <h2 className="text-black">Apache Maven</h2>
             </div>
-          </div>
         </div>
       </div>
       <div className="p-8 max-w-[1240px] w-full h-auto pt-2 m-auto">
-        <h1 className="text-[#bb86fc] tracking-wide">POLLING APP SNAPSHOTS</h1>
+        <h1 className="text-[#bb86fc] tracking-wide">APP COMMANDS</h1>
         <div className="gap-3 pt-10 grid">
-          <p className="text-[#ffffff] leading-8 text-center">
-            Slack App About Section:
-          </p>
-          <Image
-            className="rounded-xl object-fill w-[100vw] hover:scale-[1.01]"
-            src={pollapp1}
-            alt="/"
-          />
           <p className="text-[#ffffff] leading-8 text-center">
             <b>
               <i>/help </i>
@@ -161,64 +151,70 @@ const slackapp = () => {
             src={pollapp2}
             alt="/"
           />
-          <p className="text-[#ffffff] leading-8 text-center">
-            List of commands:
+          <p className="text-[#ffffff] leading-8 text-center pt-16">
+            <b>
+              <i>/examples </i>
+            </b>
+            (displays example commands):
           </p>
           <Image
             className="rounded-xl object-fill w-[100vw] hover:scale-[1.01]"
             src={pollapp3}
             alt="/"
           />
-          <p className="text-[#ffffff] leading-8 text-center">
-            List of commands:
+          <p className="text-[#ffffff] leading-8 text-center pt-16">
+            <b>
+              <i>/date-poll </i>
+            </b>
+            (launches a poll for the meeting date):
           </p>
           <Image
             className="rounded-xl object-fill w-[100vw] hover:scale-[1.01]"
             src={pollapp4}
             alt="/"
           />
-          <p className="text-[#ffffff] leading-8 text-center">
-            List of commands:
-          </p>
-          <Image
-            className="rounded-xl object-fill w-[100vw] hover:scale-[1.01]"
-            src={pollapp5}
-            alt="/"
-          />
-          <p className="text-[#ffffff] leading-8 text-center">
-            List of commands:
-          </p>
-          <Image
-            className="rounded-xl object-fill w-[100vw] hover:scale-[1.01]"
-            src={pollapp6}
-            alt="/"
-          />
-          <p className="text-[#ffffff] leading-8 text-center">
-            List of commands:
+          <p className="text-[#ffffff] leading-8 text-center pt-16">
+            <b>
+              <i>/save </i>
+            </b>
+            (saves the results of a current poll):
           </p>
           <Image
             className="rounded-xl object-fill w-[100vw] hover:scale-[1.01]"
             src={pollapp7}
             alt="/"
           />
-          <p className="text-[#ffffff] leading-8 text-center">
-            List of commands:
+          <p className="text-[#ffffff] leading-8 text-center pt-16">
+            <b>
+              <i>/time-poll </i>
+            </b>
+            (launches a poll for a meeting time):
           </p>
           <Image
             className="rounded-xl object-fill w-[100vw] hover:scale-[1.01]"
             src={pollapp8}
             alt="/"
           />
-          <p className="text-[#ffffff] leading-8 text-center">
-            List of commands:
+          <p className="text-[#ffffff] leading-8 text-center pt-16">
+            <b>
+              <i>/view </i>
+            </b>
+            (displays results of saved polls):
           </p>
           <Image
             className="rounded-xl object-fill w-[100vw] hover:scale-[1.01]"
             src={pollapp10}
             alt="/"
           />
-          <p className="text-[#ffffff] leading-8 text-center">
-            List of commands:
+          <p className="text-[#ffffff] leading-8 text-center pt-16">
+            <b>
+              <i>/anon-time </i>
+            </b>
+            or
+            <b>
+              <i> /anon-date </i>
+            </b>
+            (launches an anonymous version of date and time polls):
           </p>
           <Image
             className="rounded-xl object-fill w-[100vw] hover:scale-[1.01]"
@@ -226,11 +222,43 @@ const slackapp = () => {
             alt="/"
           />
           <p className="text-[#ffffff] leading-8 text-center">
-            List of commands:
+            <b>
+              <i>/view </i>
+            </b>
+            for an anonymous poll:
           </p>
           <Image
             className="rounded-xl object-fill w-[100vw] hover:scale-[1.01]"
             src={pollapp12}
+            alt="/"
+          />
+        </div>
+      </div>
+      <div className="p-8 max-w-[1240px] w-full h-auto pt-10 m-auto">
+        <h1 className="text-[#bb86fc] tracking-wide">POLLING APP SNAPSHOTS</h1>
+        <div className="gap-3 pt-10 grid">
+          <p className="text-[#ffffff] leading-8 text-center">
+            Slack App About Section:
+          </p>
+          <Image
+            className="rounded-xl object-fill w-[100vw] hover:scale-[1.01]"
+            src={pollapp1}
+            alt="/"
+          />
+          <p className="text-[#ffffff] leading-8 text-center pt-16">
+            Selecting a poll option:
+          </p>
+          <Image
+            className="rounded-xl object-fill w-[100vw] hover:scale-[1.01]"
+            src={pollapp5}
+            alt="/"
+          />
+          <p className="text-[#ffffff] leading-8 text-center pt-16">
+            De-selecting a previously selected option :
+          </p>
+          <Image
+            className="rounded-xl object-fill w-[100vw] hover:scale-[1.01]"
+            src={pollapp6}
             alt="/"
           />
         </div>
