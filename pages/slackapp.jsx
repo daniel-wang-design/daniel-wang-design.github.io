@@ -3,11 +3,19 @@ import Image from "next/image";
 import Link from "next/link";
 import improvall1 from "../public/assets/projects/improvall-1.png";
 import "semantic-ui-css/semantic.min.css";
-import improvallCover from "../public/assets/projects/improvall-cover.png";
-import improvall2 from "../public/assets/projects/improvall-2.png";
-import improvall3 from "../public/assets/projects/improvall-3.png";
-import improvall4 from "../public/assets/projects/improvall-4.png";
-import improvall5 from "../public/assets/projects/improvall-5.png";
+import pollappCover from "../public/assets/projects/pollapp-cover.png";
+
+import pollapp1 from "../public/assets/projects/pollapp-1.png";
+import pollapp2 from "../public/assets/projects/pollapp-2.png";
+import pollapp3 from "../public/assets/projects/pollapp-3.png";
+import pollapp4 from "../public/assets/projects/pollapp-4.png";
+import pollapp5 from "../public/assets/projects/pollapp-5.png";
+import pollapp6 from "../public/assets/projects/pollapp-6.png";
+import pollapp7 from "../public/assets/projects/pollapp-7.png";
+import pollapp8 from "../public/assets/projects/pollapp-8.png";
+import pollapp10 from "../public/assets/projects/pollapp-10.png";
+import pollapp11 from "../public/assets/projects/pollapp-11.png";
+import pollapp12 from "../public/assets/projects/pollapp-12.png";
 import pollapp13 from "../public/assets/projects/pollapp-13.png";
 import { TypeAnimation } from "react-type-animation";
 import { BsChevronLeft } from "react-icons/bs";
@@ -19,10 +27,10 @@ const slackapp = () => {
   return (
     <div className="h-full w-full bg-[#111111]">
       <div className="relative">
-        <div className="brightness-[0.2]">
+        <div className="brightness-[0.3]">
           <Image
             className="object-fill h-[100%] w-[100%] blur-sm"
-            src={improvallCover}
+            src={pollappCover}
             alt="/"
           />
         </div>
@@ -39,12 +47,13 @@ const slackapp = () => {
           />
         </div>
       </div>
-
-      <div className="p-8 max-w-[1240px] m-auto grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 items-center">
+      <div className="max-w-[1240px] m-auto px-8">
+        <h1 className="uppercase tracking-wide pt-16 text-[#bb86fc]">
+          Slack Poll App
+        </h1>
+      </div>
+      <div className="p-8 max-w-[1240px] m-auto grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 content-center">
         <div className="lg:col-span-3 md:col-span-2 col-span-2">
-          <h1 className="uppercase tracking-wide pt-16 text-[#bb86fc]">
-            Slack Poll App
-          </h1>
           <p className="py-2 text-[#ffffff] leading-8">
             <b>PollApp </b>
             is an open source polling app built for FOCUS Youth Organization, a
@@ -103,7 +112,7 @@ const slackapp = () => {
         </div>
         <div className="p-8 w-[80vw] lg:w-[25vw] md:w-[30vw] sm:w-[30vw]">
           <Image
-            className="rounded-xl object-scale-down"
+            className="rounded-xl object-scale-down hover:scale-105"
             src={pollapp13}
             alt="/"
           />
@@ -124,35 +133,104 @@ const slackapp = () => {
             <div className="bg-[#bb86fc] p-3 hover:scale-105 rounded-xl text-center">
               <h2 className="text-black">Amazon S3</h2>
             </div>
+            <div className="bg-[#bb86fc] p-3 hover:scale-105 rounded-xl text-center">
+              <h2 className="text-black">Apache Maven</h2>
+            </div>
           </div>
         </div>
       </div>
       <div className="p-8 max-w-[1240px] w-full h-auto pt-2 m-auto">
         <h1 className="text-[#bb86fc] tracking-wide">POLLING APP SNAPSHOTS</h1>
-        <div className="gap-3 pt-10 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5">
+        <div className="gap-3 pt-10 grid">
+          <p className="text-[#ffffff] leading-8 text-center">
+            Slack App About Section:
+          </p>
           <Image
-            className="rounded-xl object-fill w-[100vw] hover:scale-105"
-            src={improvall1}
+            className="rounded-xl object-fill w-[100vw] hover:scale-[1.01]"
+            src={pollapp1}
             alt="/"
           />
+          <p className="text-[#ffffff] leading-8 text-center">
+            <b>
+              <i>/help </i>
+            </b>
+            (displays list of commands):
+          </p>
           <Image
-            className="rounded-xl object-fill w-[100vw] hover:scale-105"
-            src={improvall2}
+            className="rounded-xl object-fill w-[100vw] hover:scale-[1.01]"
+            src={pollapp2}
             alt="/"
           />
+          <p className="text-[#ffffff] leading-8 text-center">
+            List of commands:
+          </p>
           <Image
-            className="rounded-xl object-fill w-[100vw] hover:scale-105"
-            src={improvall3}
+            className="rounded-xl object-fill w-[100vw] hover:scale-[1.01]"
+            src={pollapp3}
             alt="/"
           />
+          <p className="text-[#ffffff] leading-8 text-center">
+            List of commands:
+          </p>
           <Image
-            className="rounded-xl object-fill w-[100vw] hover:scale-105"
-            src={improvall4}
+            className="rounded-xl object-fill w-[100vw] hover:scale-[1.01]"
+            src={pollapp4}
             alt="/"
           />
+          <p className="text-[#ffffff] leading-8 text-center">
+            List of commands:
+          </p>
           <Image
-            className="rounded-xl object-fill w-[100vw] hover:scale-105"
-            src={improvall5}
+            className="rounded-xl object-fill w-[100vw] hover:scale-[1.01]"
+            src={pollapp5}
+            alt="/"
+          />
+          <p className="text-[#ffffff] leading-8 text-center">
+            List of commands:
+          </p>
+          <Image
+            className="rounded-xl object-fill w-[100vw] hover:scale-[1.01]"
+            src={pollapp6}
+            alt="/"
+          />
+          <p className="text-[#ffffff] leading-8 text-center">
+            List of commands:
+          </p>
+          <Image
+            className="rounded-xl object-fill w-[100vw] hover:scale-[1.01]"
+            src={pollapp7}
+            alt="/"
+          />
+          <p className="text-[#ffffff] leading-8 text-center">
+            List of commands:
+          </p>
+          <Image
+            className="rounded-xl object-fill w-[100vw] hover:scale-[1.01]"
+            src={pollapp8}
+            alt="/"
+          />
+          <p className="text-[#ffffff] leading-8 text-center">
+            List of commands:
+          </p>
+          <Image
+            className="rounded-xl object-fill w-[100vw] hover:scale-[1.01]"
+            src={pollapp10}
+            alt="/"
+          />
+          <p className="text-[#ffffff] leading-8 text-center">
+            List of commands:
+          </p>
+          <Image
+            className="rounded-xl object-fill w-[100vw] hover:scale-[1.01]"
+            src={pollapp11}
+            alt="/"
+          />
+          <p className="text-[#ffffff] leading-8 text-center">
+            List of commands:
+          </p>
+          <Image
+            className="rounded-xl object-fill w-[100vw] hover:scale-[1.01]"
+            src={pollapp12}
             alt="/"
           />
         </div>

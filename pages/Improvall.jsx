@@ -38,10 +38,13 @@ const Improvall = () => {
           />
         </div>
       </div>
-
+      <div className="max-w-[1240px] m-auto px-8">
+        <h1 className="uppercase tracking-wide pt-16 text-[#bb86fc]">
+          Improvall Mobile App
+        </h1>
+      </div>
       <div className="p-8 max-w-[1240px] m-auto grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 content-center">
         <div className="lg:col-span-3 md:col-span-2 col-span-2">
-          <h1 className="uppercase tracking-wide text-[#bb86fc]">Improvall</h1>
           <p className="py-2 text-[#ffffff] leading-8">
             <b>Improvall </b>
             is a productivity app that encourages studying through friendly
