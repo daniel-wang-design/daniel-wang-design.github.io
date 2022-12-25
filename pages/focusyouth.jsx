@@ -94,13 +94,24 @@ const focusyouth = () => {
             (description, duration, approvel, etc.)
           </p>
           <p className="pb-2 pt-6 text-[#ffffff] leading-8">
-            <b>About Improvall: </b>
-            Improvall is part of the Junior Achievement Central Ontario Program.
-            The app is no longer available on the Apple App Store but can still
-            be downloaded on the Google Play Store. As the Vice President of
-            Technology and Vice President of Product, I led a team of 4
-            responsible for the design, creation, and production of the app.
+            The backend NodeJS server is hosted on Heroku, and the frontend
+            React app is hosted on Vercel and can be accessed at{" "}
+            <a
+              href="https://portal.focusyouth.ca"
+              target={"_blank"}
+              rel="noreferrer"
+              className="text-[#bb86fc]"
+            >
+              portal.focusyouth.ca
+            </a>
+            &nbsp;Express is used as the routing and middleware for GET and POST
+            methods from the React client to the NodeJS server.
           </p>
+          <p className="pb-2 pt-6 text-[#ffffff] leading-8">
+            User authentication is handled using JSONWebTokens sent from the
+            server-side to the client-side webpage.
+          </p>
+          <br />
           <div className="grid md:grid-cols-2">
             <div>
               <p className="text-[#ffffff] leading-8">View on GitHub:</p>
