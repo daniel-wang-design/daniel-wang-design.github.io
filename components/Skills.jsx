@@ -11,6 +11,8 @@ import javaImg from "../public/assets/skills/java.svg";
 import pythonImg from "../public/assets/skills/python.png";
 import boltImg from "../public/assets/skills/bolt.svg";
 import dartImg from "../public/assets/skills/dart.png";
+import nodeImg from "../public/assets/skills/node.png";
+import expressImg from "../public/assets/skills/express.png";
 import SkillTile from "./SkillTile";
 import flutterImg from "../public/assets/skills/flutter.png";
 import tailwindImg from "../public/assets/skills/tailwind.png";
@@ -61,31 +63,40 @@ export function Skills() {
         </h2>
         <div className="grid grid-cols-2 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
           <div data-aos="fade-up">
+            <SkillTile image={mongoImg} text="MongoDB" />
+          </div>
+          <div data-aos="fade-up">
+            <SkillTile image={expressImg} text="Express" />
+          </div>
+          <div data-aos="fade-up">
+            <SkillTile image={reactImg} text="React" padding={0} />
+          </div>
+          <div data-aos="fade-up">
+            <SkillTile image={nodeImg} text="NodeJS" padding={0} />
+          </div>
+          <div data-aos="fade-up">
             <SkillTile image={awsImg} text="AWS S3" />
           </div>
           <div data-aos="fade-up">
             <SkillTile image={firebaseImg} text="Firebase" />
           </div>
           <div data-aos="fade-up">
-            <SkillTile image={reactImg} text="React" padding={0}/>
+            <SkillTile image={flutterImg} text="Flutter" padding={0} />
           </div>
           <div data-aos="fade-up">
-            <SkillTile image={flutterImg} text="Flutter" padding={0}/>
+            <SkillTile image={nextjsImg} text="NextJS" padding={0} />
           </div>
           <div data-aos="fade-up">
-            <SkillTile image={nextjsImg} text="NextJS" padding={0}/>
+            <SkillTile image={tailwindImg} text="Tailwind" padding={0} />
           </div>
           <div data-aos="fade-up">
-            <SkillTile image={tailwindImg} text="Tailwind" padding={0}/>
+            <SkillTile image={mavenImg} text="Maven" padding={12} />
           </div>
           <div data-aos="fade-up">
-            <SkillTile image={mavenImg} text="Maven"  padding={12}/>
+            <SkillTile image={boltImg} text="BoltSDK" padding={0} />
           </div>
           <div data-aos="fade-up">
-            <SkillTile image={boltImg} text="BoltSDK" padding={0}/>
-          </div>
-          <div data-aos="fade-up">
-            <SkillTile image={githubImg} text="GitHub" padding={0}/>
+            <SkillTile image={githubImg} text="GitHub" padding={0} />
           </div>
         </div>
       </div>

@@ -50,6 +50,28 @@ export const Projects = () => {
           <div className="grid gap-8 md:grid-cols-2">
             <div data-aos="fade-up" className="">
               <ProjectItem
+                title="FOCUS Youth User Portal"
+                backgroundImg={focusyouthImg}
+                text="MongoDB | Express | React | NodeJS"
+                projectURL="/focusyouth"
+              />
+            </div>
+            <div data-aos="fade-right">
+              <h2 className="pb-2 tracking-wide text-[#bb86fc]">
+                Full-Stack App: User Portal
+              </h2>
+              <p className="text-white pt-4">
+                dflskj slfkjwoj lskjfsldkjf slkjf dslfk d sljwfopjdslf jfea
+                dskjs dflkjds lj lfjfdsadflskj slfkjwoj lskjfsldkjf slkjf dslfk
+                d sljwfopjdslf jfea dskjs dflkjds lj lfjfdsadflskj slfkjwoj
+                lskjfsldkjf slkjf dslfk d sljwfopjdslf jfea dskjs dflkjds lj
+                lfjfdsa
+              </p>
+            </div>
+          </div>
+          <div className="grid gap-8 md:grid-cols-2">
+            <div data-aos="fade-up" className="">
+              <ProjectItem
                 title="Slack Polling App"
                 backgroundImg={pollappImg}
                 projectURL="/slackapp"
@@ -82,26 +104,6 @@ export const Projects = () => {
               <h2 className="pb-2 tracking-wide text-[#bb86fc]">
                 Personal Website
               </h2>
-              <p className="text-white pt-4">
-                dflskj slfkjwoj lskjfsldkjf slkjf dslfk d sljwfopjdslf jfea
-                dskjs dflkjds lj lfjfdsadflskj slfkjwoj lskjfsldkjf slkjf dslfk
-                d sljwfopjdslf jfea dskjs dflkjds lj lfjfdsadflskj slfkjwoj
-                lskjfsldkjf slkjf dslfk d sljwfopjdslf jfea dskjs dflkjds lj
-                lfjfdsa
-              </p>
-            </div>
-          </div>
-          <div className="grid gap-8 md:grid-cols-2">
-            <div data-aos="fade-up" className="">
-              <ProjectItem
-                title="FOCUS Youth Website"
-                backgroundImg={focusyouthImg}
-                text="HTML | CSS | JS"
-                projectURL="/focusyouth"
-              />
-            </div>
-            <div data-aos="fade-right">
-              <h2 className="pb-2 tracking-wide text-[#bb86fc]">FOCUS Youth</h2>
               <p className="text-white pt-4">
                 dflskj slfkjwoj lskjfsldkjf slkjf dslfk d sljwfopjdslf jfea
                 dskjs dflkjds lj lfjfdsadflskj slfkjwoj lskjfsldkjf slkjf dslfk

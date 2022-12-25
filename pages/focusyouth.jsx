@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import improvall1 from "../public/assets/projects/improvall-1.png";
 import "semantic-ui-css/semantic.min.css";
-import improvallCover from "../public/assets/projects/improvall-cover.png";
+import improvallCover from "../public/assets/projects/focusyouth-cover.png";
 import improvall2 from "../public/assets/projects/improvall-2.png";
 import improvall3 from "../public/assets/projects/improvall-3.png";
 import improvall4 from "../public/assets/projects/improvall-4.png";
@@ -18,7 +18,7 @@ const focusyouth = () => {
   return (
     <div className="h-full w-full bg-[#111111]">
       <div className="relative">
-        <div className="brightness-[0.2]">
+        <div className="brightness-[0.3]">
           <Image
             className="object-fill h-[100%] w-[100%] blur-sm"
             src={improvallCover}
@@ -42,14 +42,13 @@ const focusyouth = () => {
       <div className="p-8 max-w-[1240px] m-auto grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 items-center">
         <div className="lg:col-span-3 md:col-span-2 col-span-2">
           <h1 className="uppercase tracking-wide pt-16 text-[#bb86fc]">
-            Improvall
+            FOCUS Youth Organization&apos;s User Portal
           </h1>
           <p className="py-2 text-[#ffffff] leading-8">
-            <b>Improvall </b>
-            is a productivity app that encourages studying through friendly
-            competition. Built upon the Flutter framework, and using the
-            programming language Dart. App data is stored locally and
-            leaderboard data is maintained using Firebase.
+            This is a user portal created for FOCUS Youth Organization, a
+            Canadian charity that I founded back in grade 9. The portal is used
+            to validate FOCUS Youth active members and allow executives,
+            volunteers, and tutors, to log their volunteer hours.
           </p>
           <p className="py-2 text-[#ffffff]">
             <b>App Features: </b>

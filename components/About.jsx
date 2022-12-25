@@ -9,7 +9,7 @@ export const About = () => {
     AOS.init({ duration: 500 });
   });
   return (
-    <div id="about" className="flex items-center w-full lg:pt-[400px] pt-16 md:h-screen">
+    <div id="about" className="flex items-center w-full lg:pt-[500px] pt-16 md:h-screen">
       <div className="max-w-[1240px] mx-auto md:grid grid-cols-3 gap-8 p-6 lg:p-0">
         <div data-aos="fade-right" className="col-span-2">
           <h1 className="uppercase tracking-wide text-[#bb86fc]">About Me</h1>
