@@ -1,17 +1,19 @@
 import React, { useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import improvall1 from "../public/assets/projects/improvall-1.png";
+import focus1 from "../public/assets/projects/focusyouth-1.png";
+import focus2 from "../public/assets/projects/focusyouth-2.png";
+import focus3 from "../public/assets/projects/focusyouth-3.png";
+import focus4 from "../public/assets/projects/focusyouth-4.png";
+import focus5 from "../public/assets/projects/focusyouth-5.png";
+import focus6 from "../public/assets/projects/focusyouth-6.png";
+import focus7 from "../public/assets/projects/focusyouth-7.png";
 import "semantic-ui-css/semantic.min.css";
-import improvallCover from "../public/assets/projects/focusyouth-cover.png";
-import improvall2 from "../public/assets/projects/improvall-2.png";
-import improvall3 from "../public/assets/projects/improvall-3.png";
-import improvall4 from "../public/assets/projects/improvall-4.png";
-import improvall5 from "../public/assets/projects/improvall-5.png";
+import focusCover from "../public/assets/projects/focusyouth-cover.png";
+
 import { TypeAnimation } from "react-type-animation";
 import { BsChevronLeft } from "react-icons/bs";
-import googlePlayBadge from "../public/assets/projects/google-play-badge.png";
-import appleAppStore from "../public/assets/projects/improvall-apple.png";
+
 import github from "../public/assets/projects/github.png";
 
 const focusyouth = () => {
@@ -21,7 +23,7 @@ const focusyouth = () => {
         <div className="brightness-[0.3]">
           <Image
             className="object-fill h-[100%] w-[100%] blur-sm"
-            src={improvallCover}
+            src={focusCover}
             alt="/"
           />
         </div>
@@ -30,7 +32,7 @@ const focusyouth = () => {
       lg:left-[10%] sm:top-[10vh] sm:left-[10%] md:top-[30vh] md:left-[10%]"
         >
           <TypeAnimation
-            sequence={["IMPROVALL", 2000]}
+            sequence={["USER PORTAL", 2000]}
             className="text-[10vw] py-4 tracking-widest text-[#bb86fc] "
             cursor={true}
             repeat={0}
@@ -39,7 +41,7 @@ const focusyouth = () => {
         </div>
       </div>
 
-      <div className="p-8 max-w-[1240px] m-auto grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 items-center">
+      <div className="p-8 px-4 max-w-[1240px] m-auto grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 items-center">
         <div className="lg:col-span-3 md:col-span-2 col-span-2">
           <h1 className="uppercase tracking-wide pt-16 text-[#bb86fc]">
             FOCUS Youth Organization&apos;s User Portal
@@ -48,44 +50,48 @@ const focusyouth = () => {
             This is a user portal created for FOCUS Youth Organization, a
             Canadian charity that I founded back in grade 9. The portal is used
             to validate FOCUS Youth active members and allow executives,
-            volunteers, and tutors, to log their volunteer hours.
+            volunteers, and tutors, to log their volunteer hours. The user
+            portal is a full-stack <b>(MERN) </b>app; using Vercel to host the
+            React client, and Heroku for the NodeJS server.
           </p>
           <p className="py-2 text-[#ffffff]">
-            <b>App Features: </b>
+            <b>Full-Stack (MERN) App Features: </b>
           </p>
           <div className="pl-8">
             <ul className="list-disc list-inside pointer-events-none leading-10 text-[#ffffff]">
               <li>
-                <b>Notifications </b> to remind you of upcoming tasks.
+                <b>Login </b> to your unique account to view, log, and update
+                your volunteer hours.
               </li>
               <li>
-                <b>Focus </b> on your work, Exiting the app will restart a task.
+                <b>Authencated </b> user id allows only admins to view protected
+                pages.
               </li>
               <li>
-                <b>Leaderboard </b> showing your number of productive hours
-                compared to others.
+                <b>Automatic </b> sign-out after 1 hour using JSONWebTokens for
+                security.
               </li>
               <li>
-                <b>Trends </b> to your study habits over time are show in a
-                time-hour graph.
+                <b>Admin </b> role allows users to edit/add/delete users.
               </li>
               <li>
-                <b>Progress </b> to your current task is saved for you to take
-                breaks.
+                <b>Approve </b> volunteer hours of other volunteers.
               </li>
               <li>
-                <b>Data </b> of your past tasks is available for you to look
-                back anytime.
+                <b>Sign-out </b> to switch users or end current session.
+              </li>
+              <li>
+                <b>Sign-up </b> page for any new volunteer to join the user
+                portal.
               </li>
             </ul>
           </div>
           <p className="pb-2 pt-6 text-[#ffffff] leading-8">
-            <b>Store Listings: </b>
-            Improvall was released on both the Apple App Store and Google Play
-            Store March 26, 2021 for approximately one month. In that time, the
-            app generated a total revenue of <b>$156.37</b>, from 48 downloads.
-            In addition, the app was able to peak <b>#3</b> on the Apple App
-            Store under Paid Productivity Apps!
+            <b>About the user portal: </b>
+            The user portal uses MongoDB atlas to store user information. One
+            collection stores user data (email, name, password, role, etc.)
+            while another collection stores all the volunteer hour date
+            (description, duration, approvel, etc.)
           </p>
           <p className="pb-2 pt-6 text-[#ffffff] leading-8">
             <b>About Improvall: </b>
@@ -101,7 +107,7 @@ const focusyouth = () => {
               <div className="m-auto lg:w-[15vw] md:w-[30vw] sm:w-[30vw]">
                 <div className="bg-[#bb86fc] rounded-xl p-4 hover:scale-105">
                   <Link
-                    href="https://github.com/daniel-wang-design/improvall"
+                    href="https://github.com/daniel-wang-design/user-portal"
                     target={"_blank"}
                   >
                     <Image className="object-fill" src={github} alt="/" />
@@ -110,18 +116,15 @@ const focusyouth = () => {
               </div>
             </div>
             <div className="md:pt-0 lg:pt-0 pt-8">
-              <p className="text-[#ffffff] leading-8">View on Google Play:</p>
-              <div className="m-auto lg:w-[15vw] md:w-[30vw] sm:w-[30vw]">
-                <div className="m-auto lg:w-[15vw] md:w-[30vw] sm:w-[30vw] hover:scale-105">
-                  <Link
-                    href="https://play.google.com/store/apps/details?id=ca.improvall.android"
-                    target={"_blank"}
-                  >
-                    <Image
-                      className="object-fill"
-                      src={googlePlayBadge}
-                      alt="/"
-                    />
+              <p className="text-[#ffffff] leading-8">View live site:</p>
+              <div className=" m-auto">
+                <div className="m-auto hover:scale-105">
+                  <Link href="HTTPS://PORTAL.FOCUSYOUTH.CA" target={"_blank"}>
+                    <div className="bg-[#bb86fc] rounded-xl p-4">
+                      <p className="text-black font-bold text-center text-3xl">
+                        PORTAL.FOCUSYOUTH.CA
+                      </p>
+                    </div>
                   </Link>
                 </div>
               </div>
@@ -131,7 +134,7 @@ const focusyouth = () => {
         <div className="p-8 w-[80vw] lg:w-[25vw] md:w-[30vw] sm:w-[30vw]">
           <Image
             className="rounded-xl object-scale-down"
-            src={appleAppStore}
+            src={focus1}
             alt="/"
           />
         </div>
@@ -141,45 +144,98 @@ const focusyouth = () => {
           <h3 className="uppercase tracking-wide text-[#ffffff]">
             Programming Languages and Technologies
           </h3>
-          <div className="gap-6 flex grid-cols-5 md:grid-cols-5 sm:3 items-center">
+          <div className="grid md:lg:flex grid-rows-7 gap-6">
             <div className="bg-[#bb86fc] p-3 hover:scale-105 rounded-xl text-center">
-              <h2 className="text-black">Dart</h2>
+              <h2 className="text-black">MongoDB</h2>
             </div>
             <div className="bg-[#bb86fc] p-3 hover:scale-105 rounded-xl text-center">
-              <h2 className="text-black">Flutter</h2>
+              <h2 className="text-black">Express</h2>
             </div>
             <div className="bg-[#bb86fc] p-3 hover:scale-105 rounded-xl text-center">
-              <h2 className="text-black">Firebase</h2>
+              <h2 className="text-black">React</h2>
+            </div>
+            <div className="bg-[#bb86fc] p-3 hover:scale-105 rounded-xl text-center">
+              <h2 className="text-black">NodeJS</h2>
+            </div>{" "}
+            <div className="bg-[#bb86fc] p-3 hover:scale-105 rounded-xl text-center">
+              <h2 className="text-black">JavaScript</h2>
+            </div>
+            <div className="bg-[#bb86fc] p-3 hover:scale-105 rounded-xl text-center">
+              <h2 className="text-black">HTML</h2>
+            </div>
+            <div className="bg-[#bb86fc] p-3 hover:scale-105 rounded-xl text-center">
+              <h2 className="text-black">CSS</h2>
             </div>
           </div>
         </div>
       </div>
       <div className="p-8 max-w-[1240px] w-full h-auto pt-2 m-auto">
-        <h1 className="text-[#bb86fc] tracking-wide">PRODUCT GALLERY</h1>
-        <div className="gap-3 pt-10 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5">
+        <h1 className="text-[#bb86fc] tracking-wide">APP SHOWCASE</h1>
+        <div className="gap-3 pt-10 grid">
+          <p className="text-[#ffffff] leading-8 text-center pt-16">
+            <b>
+              <i>Sign-Up Page </i>
+            </b>
+            (for new users):
+          </p>
           <Image
-            className="rounded-xl object-fill w-[100vw] hover:scale-105"
-            src={improvall1}
+            className="rounded-xl object-fill w-[100vw] hover:scale-[1.01]"
+            src={focus7}
             alt="/"
           />
+          <p className="text-[#ffffff] leading-8 text-center pt-16">
+            <b>
+              <i>Log-In Page </i>
+            </b>
+            (for existing users):
+          </p>
           <Image
-            className="rounded-xl object-fill w-[100vw] hover:scale-105"
-            src={improvall2}
+            className="rounded-xl object-fill w-[100vw] hover:scale-[1.01]"
+            src={focus6}
             alt="/"
           />
+          <p className="text-[#ffffff] leading-8 text-center pt-16">
+            <b>
+              <i>User List </i>
+            </b>
+            (list of all FOCUS Youth members or volunteers):
+          </p>
           <Image
-            className="rounded-xl object-fill w-[100vw] hover:scale-105"
-            src={improvall3}
+            className="rounded-xl object-fill w-[100vw] hover:scale-[1.01]"
+            src={focus2}
             alt="/"
           />
+          <p className="text-[#ffffff] leading-8 text-center pt-16">
+            <b>
+              <i>View Volunteer Hours </i>
+            </b>
+            (view, edit, and add new volunteer hours):
+          </p>
           <Image
-            className="rounded-xl object-fill w-[100vw] hover:scale-105"
-            src={improvall4}
+            className="rounded-xl object-fill w-[100vw] hover:scale-[1.01]"
+            src={focus3}
             alt="/"
           />
+          <p className="text-[#ffffff] leading-8 text-center pt-16">
+            <b>
+              <i>Create a New User </i>
+            </b>
+            (for portal admins only):
+          </p>
           <Image
-            className="rounded-xl object-fill w-[100vw] hover:scale-105"
-            src={improvall5}
+            className="rounded-xl object-fill w-[100vw] hover:scale-[1.01]"
+            src={focus4}
+            alt="/"
+          />
+          <p className="text-[#ffffff] leading-8 text-center pt-16">
+            <b>
+              <i>Update a User </i>
+            </b>
+            (for portal admins only):
+          </p>
+          <Image
+            className="rounded-xl object-fill w-[100vw] hover:scale-[1.01]"
+            src={focus5}
             alt="/"
           />
         </div>

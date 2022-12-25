@@ -58,7 +58,7 @@ export const Projects = () => {
             </div>
             <div data-aos="fade-right">
               <h2 className="pb-2 tracking-wide text-[#bb86fc]">
-                Full-Stack App: User Portal
+                MERN App: User Portal
               </h2>
               <p className="text-white pt-4">
                 dflskj slfkjwoj lskjfsldkjf slkjf dslfk d sljwfopjdslf jfea
