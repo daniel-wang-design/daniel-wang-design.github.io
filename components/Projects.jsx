@@ -24,7 +24,17 @@ export const Projects = () => {
         </h1>
         <p data-aos="fade-right" className="text-white pb-12">
           Below is a showcase of some of my past projects. Hover over each image
-          to learn more!
+          to learn more! Learn more about some of my coding experience and my
+          participation in various Hackathons on{" "}
+          <a
+            href="https://github.com/daniel-wang-design"
+            rel="noreferrer"
+            target={"_blank"}
+            className="text-[#bb86fc]"
+          >
+            GitHub
+          </a>
+          !
         </p>
         <div className="grid gap-8 pt-4">
           <div className="grid gap-8 md:grid-cols-2">
@@ -39,11 +49,10 @@ export const Projects = () => {
             <div data-aos="fade-right">
               <h2 className="pb-2 tracking-wide text-[#bb86fc]">Improvall</h2>
               <p className="text-white pt-4">
-                dflskj slfkjwoj lskjfsldkjf slkjf dslfk d sljwfopjdslf jfea
-                dskjs dflkjds lj lfjfdsadflskj slfkjwoj lskjfsldkjf slkjf dslfk
-                d sljwfopjdslf jfea dskjs dflkjds lj lfjfdsadflskj slfkjwoj
-                lskjfsldkjf slkjf dslfk d sljwfopjdslf jfea dskjs dflkjds lj
-                lfjfdsa
+                A productivity mobile app created for both Android and iOS
+                devices. Previously available for both iOS and Android users,
+                now only available on the Google Play Store. Generated over $150
+                in revenue.
               </p>
             </div>
           </div>
@@ -61,11 +70,9 @@ export const Projects = () => {
                 MERN App: User Portal
               </h2>
               <p className="text-white pt-4">
-                dflskj slfkjwoj lskjfsldkjf slkjf dslfk d sljwfopjdslf jfea
-                dskjs dflkjds lj lfjfdsadflskj slfkjwoj lskjfsldkjf slkjf dslfk
-                d sljwfopjdslf jfea dskjs dflkjds lj lfjfdsadflskj slfkjwoj
-                lskjfsldkjf slkjf dslfk d sljwfopjdslf jfea dskjs dflkjds lj
-                lfjfdsa
+                A full-stack app using the MERN Stack created for FOCUS Youth
+                Organization. Allows FOCUS Youth executives, tutors, and
+                volunteers to sign in and log their volunteer hours.
               </p>
             </div>
           </div>
@@ -83,11 +90,10 @@ export const Projects = () => {
                 Slack Polling App
               </h2>
               <p className="text-white pt-4">
-                dflskj slfkjwoj lskjfsldkjf slkjf dslfk d sljwfopjdslf jfea
-                dskjs dflkjds lj lfjfdsadflskj slfkjwoj lskjfsldkjf slkjf dslfk
-                d sljwfopjdslf jfea dskjs dflkjds lj lfjfdsadflskj slfkjwoj
-                lskjfsldkjf slkjf dslfk d sljwfopjdslf jfea dskjs dflkjds lj
-                lfjfdsa
+                A poll app created for Slack depoloyed on all FOCUS Youth
+                Orgaization Slack workplaces. Allows FOCUS Youth members to
+                create polls free of charge, including anonymous polls and
+                saving poll results for future use.
               </p>
             </div>
           </div>
@@ -105,11 +111,8 @@ export const Projects = () => {
                 Personal Website
               </h2>
               <p className="text-white pt-4">
-                dflskj slfkjwoj lskjfsldkjf slkjf dslfk d sljwfopjdslf jfea
-                dskjs dflkjds lj lfjfdsadflskj slfkjwoj lskjfsldkjf slkjf dslfk
-                d sljwfopjdslf jfea dskjs dflkjds lj lfjfdsadflskj slfkjwoj
-                lskjfsldkjf slkjf dslfk d sljwfopjdslf jfea dskjs dflkjds lj
-                lfjfdsa
+                My personal website showcasing some of my past projects and
+                built using NextJS and TailwindCSS.
               </p>
             </div>
           </div>

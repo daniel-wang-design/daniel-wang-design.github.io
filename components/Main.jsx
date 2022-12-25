@@ -29,8 +29,8 @@ export const Main = () => {
             deletionSpeed={20}
           />
           <p className="py-4 text-[#ffffff] max-w-[70%] m-auto">
-            I&apos;m a rising programmer specializing in productivity-related
-            applications.
+            I&apos;m a Full-Stack programmer specializing in
+            productivity-related apps.
           </p>
           <div className="flex items-center justify-between max-w-[300px] m-auto py-4">
             <Link

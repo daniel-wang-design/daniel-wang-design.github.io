@@ -189,66 +189,79 @@ const focusyouth = () => {
             </b>
             (for new users):
           </p>
-          <Image
-            className="rounded-xl object-fill w-[100vw] hover:scale-[1.01]"
-            src={focus7}
-            alt="/"
-          />
+          <div className="bg-[#bb86fc] p-[1px] hover:scale-105 rounded-xl">
+            <Image
+              className="rounded-xl object-fill w-[100vw]"
+              src={focus7}
+              alt="/"
+            />
+          </div>
+
           <p className="text-[#ffffff] leading-8 text-center pt-16">
             <b>
               <i>Log-In Page </i>
             </b>
             (for existing users):
           </p>
-          <Image
-            className="rounded-xl object-fill w-[100vw] hover:scale-[1.01]"
-            src={focus6}
-            alt="/"
-          />
+          <div className="bg-[#bb86fc] p-[1px] hover:scale-105 rounded-xl">
+            <Image
+              className="rounded-xl object-fill w-[100vw]"
+              src={focus6}
+              alt="/"
+            />
+          </div>
           <p className="text-[#ffffff] leading-8 text-center pt-16">
             <b>
               <i>User List </i>
             </b>
             (list of all FOCUS Youth members or volunteers):
           </p>
-          <Image
-            className="rounded-xl object-fill w-[100vw] hover:scale-[1.01]"
-            src={focus2}
-            alt="/"
-          />
+          <div className="bg-[#bb86fc] p-[1px] hover:scale-105 rounded-xl">
+            <Image
+              className="rounded-xl object-fill w-[100vw]"
+              src={focus2}
+              alt="/"
+            />
+          </div>
           <p className="text-[#ffffff] leading-8 text-center pt-16">
             <b>
               <i>View Volunteer Hours </i>
             </b>
             (view, edit, and add new volunteer hours):
           </p>
-          <Image
-            className="rounded-xl object-fill w-[100vw] hover:scale-[1.01]"
-            src={focus3}
-            alt="/"
-          />
+          <div className="bg-[#bb86fc] p-[1px] hover:scale-105 rounded-xl">
+            <Image
+              className="rounded-xl object-fill w-[100vw]"
+              src={focus3}
+              alt="/"
+            />
+          </div>
           <p className="text-[#ffffff] leading-8 text-center pt-16">
             <b>
               <i>Create a New User </i>
             </b>
             (for portal admins only):
           </p>
-          <Image
-            className="rounded-xl object-fill w-[100vw] hover:scale-[1.01]"
-            src={focus4}
-            alt="/"
-          />
+          <div className="bg-[#bb86fc] p-[1px] hover:scale-105 rounded-xl">
+            <Image
+              className="rounded-xl object-fill w-[100vw]"
+              src={focus4}
+              alt="/"
+            />
+          </div>
           <p className="text-[#ffffff] leading-8 text-center pt-16">
             <b>
               <i>Update a User </i>
             </b>
             (for portal admins only):
           </p>
-          <Image
-            className="rounded-xl object-fill w-[100vw] hover:scale-[1.01]"
-            src={focus5}
-            alt="/"
-          />
+          <div className="bg-[#bb86fc] p-[1px] hover:scale-105 rounded-xl">
+            <Image
+              className="rounded-xl object-fill w-[100vw]"
+              src={focus5}
+              alt="/"
+            />
+          </div>
         </div>
       </div>
       <div className="w-full pb-8 pt-16">
