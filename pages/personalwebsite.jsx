@@ -88,7 +88,7 @@ const personalwebsite = () => {
             <h3 className="uppercase tracking-wide text-[#ffffff]">
               Programming Languages and Technologies
             </h3>
-            <div className="gap-6 md:lg:flex grid grid-rows-3">
+            <div className="gap-6 md:lg:flex grid grid-rows-4">
               <div className="bg-[#bb86fc] p-3 hover:scale-105 rounded-xl text-center">
                 <h2 className="text-black">React</h2>
               </div>
@@ -97,6 +97,9 @@ const personalwebsite = () => {
               </div>
               <div className="bg-[#bb86fc] p-3 hover:scale-105 rounded-xl text-center">
                 <h2 className="text-black">JavaScript</h2>
+              </div>{" "}
+              <div className="bg-[#bb86fc] p-3 hover:scale-105 rounded-xl text-center">
+                <h2 className="text-black">HTML</h2>
               </div>
             </div>
           </div>
