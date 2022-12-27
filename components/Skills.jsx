@@ -9,6 +9,7 @@ import mongoImg from "../public/assets/skills/mongo.png";
 import reactImg from "../public/assets/skills/react.png";
 import javaImg from "../public/assets/skills/java.svg";
 import pythonImg from "../public/assets/skills/python.png";
+import racketImg from "../public/assets/skills/racket.png";
 import boltImg from "../public/assets/skills/bolt.svg";
 import dartImg from "../public/assets/skills/dart.png";
 import nodeImg from "../public/assets/skills/node.png";
@@ -56,6 +57,9 @@ export function Skills() {
           </div>
           <div data-aos="fade-up">
             <SkillTile image={pythonImg} text="Python" />
+          </div>{" "}
+          <div data-aos="fade-up">
+            <SkillTile image={racketImg} text="Racket" />
           </div>
         </div>
         <h2 data-aos="fade-right" className="py-4 text-[#ffffff]">
