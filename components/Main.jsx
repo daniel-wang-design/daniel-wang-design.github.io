@@ -68,7 +68,7 @@ export const Main = () => {
             </Link>
             <Link
               className="text-[#000000]"
-              href="https://www.drive.google.com"
+              href="https://drive.google.com/file/d/1DlwSWb0QIPOX7wZ3xAd31bjwVX6BS0QB/view?usp=sharing"
               target={"_blank"}
             >
               <div
