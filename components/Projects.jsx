@@ -82,7 +82,7 @@ export const Projects = () => {
                 title="Slack Polling App"
                 backgroundImg={pollappImg}
                 projectURL="/slackapp"
-                text="BoltSDK | Java | AmazonS3"
+                text="BoltSDK | Java | AWS S3"
               />
             </div>
             <div data-aos="fade-right">
