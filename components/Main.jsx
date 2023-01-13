@@ -66,17 +66,6 @@ export const Main = () => {
                 <AiOutlineMail />
               </div>
             </Link>
-            <Link
-              className="text-[#000000]"
-              href="https://drive.google.com/file/d/1DlwSWb0QIPOX7wZ3xAd31bjwVX6BS0QB/view?usp=sharing"
-              target={"_blank"}
-            >
-              <div
-                className={`bg-[${textColor}] p-4 duration-300 ease-in rounded-xl cursor-pointer hover:scale-110`}
-              >
-                <BsFillPersonLinesFill />
-              </div>
-            </Link>
           </div>
         </div>
       </div>
