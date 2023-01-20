@@ -100,17 +100,13 @@ export const Navbar = () => {
                     <AiOutlineMail />
                   </div>
                 </Link>
-                <Link
-                  className="text-[#000000]"
-                  href="https://www.drive.google.com"
-                  target={"_blank"}
-                >
-                  <div
-                    className={`bg-[${textColor}] p-3 duration-300 ease-in rounded-xl cursor-pointer hover:scale-110`}
-                  >
-                    <BsFillPersonLinesFill />
-                  </div>
-                </Link>
+                <a href="/Resume.pdf" target="_blank">
+              <div
+                className={`bg-[${textColor}] p-4 duration-300 ease-in rounded-xl cursor-pointer hover:scale-110`}
+              >
+                <BsFillPersonLinesFill />
+              </div>
+            </a>
               </div>
             </div>
           </div>
