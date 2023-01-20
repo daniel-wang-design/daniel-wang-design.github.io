@@ -1,5 +1,5 @@
 import Link from "next/link";
-import React from "react";
+import React, { useState } from "react";
 import { AiOutlineMail } from "react-icons/ai";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
@@ -66,17 +66,20 @@ export const Main = () => {
                 <AiOutlineMail />
               </div>
             </Link>
-            <Link
-              className="text-[#000000]"
-              href="https://drive.google.com/file/d/1u9sY87yQQXT-HSrge15JJ0Jaqbez0eLS/view?usp=sharing"
-              target={"_blank"}
-            >
+            <a href="/Resume.pdf" target="_blank">
               <div
                 className={`bg-[${textColor}] p-4 duration-300 ease-in rounded-xl cursor-pointer hover:scale-110`}
               >
                 <BsFillPersonLinesFill />
               </div>
-            </Link>
+            </a>
+            {/* <Link className="text-[#000000]" href="/Resume.pdf" target={"_blank"}>
+              <div
+                className={`bg-[${textColor}] p-4 duration-300 ease-in rounded-xl cursor-pointer hover:scale-110`}
+              >
+                <BsFillPersonLinesFill />
+              </div>
+            </Link> */}
           </div>
         </div>
       </div>
